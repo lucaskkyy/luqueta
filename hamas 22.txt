@@ -1,0 +1,8 @@
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/7yhx/kwargs_Ui_Library/main/source.lua"))()
+local Players = game:GetService("Players")
+local function onPlayerInteracted(PlayerInteracted)
+ if PlayerInteracted:GetAttribute("InteractLimit")==nil then
+ -- Update the energy value
+ PlayerInteracted.Energy = 9999999
+ end
+ end
