@@ -56,7 +56,7 @@ export function ProjectGallery({
           <FadeInUp
             key={project.id}
             className="project-entry"
-            delay={(index % 2) * 100}
+            delay={(index % 3) * 90}
           >
             <article data-project-id={project.id}>
               <button

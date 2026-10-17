@@ -1,3 +1,4 @@
+import { presentationFor } from "@/data/presentation";
 import Link from "next/link";
 import { featuredHeroProjects } from "@/data/projects";
 import { Artwork } from "../artwork";
@@ -51,7 +52,7 @@ export function Hero() {
             <div
               className={`hero-art hero-art-${index + 1}`}
               key={project.id}
-              style={{ aspectRatio: `${project.width} / ${project.height}` }}
+              style={{ aspectRatio: `${presentationFor(project).width} / ${presentationFor(project).height}` }}
             >
               <FadeInUp delay={150 + index * 130}>
                 <Artwork project={project} priority={index === 0} />

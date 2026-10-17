@@ -9,7 +9,7 @@ test("real artwork remains complete, loaded and correctly selected", async ({
   await expect(images).toHaveCount(6);
   await expect(images.first()).toHaveAttribute("src", /estamos-classificados/);
   await expect(images.first()).toHaveAttribute("width", "1440");
-  await expect(images.first()).toHaveAttribute("height", "2560");
+  await expect(images.first()).toHaveAttribute("height", "1800");
   await expect(hero.locator('img[src*="confirmados-supercopa"]')).toHaveCount(
     0,
   );

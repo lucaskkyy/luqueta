@@ -1,3 +1,4 @@
+import { presentationFor } from "@/data/presentation";
 import type { CSSProperties } from "react";
 import { ProjectImage } from "./project-image";
 import type { Project } from "@/data/projects";
@@ -8,26 +9,27 @@ export function Artwork({
   project: Project;
   priority?: boolean;
 }) {
+  const display = presentationFor(project);
   return (
     <div
       className={`artwork art-${project.color}${project.image ? " artwork-real" : ""}`}
       style={
-        project.width && project.height
+        display.width && display.height
           ? ({
-              aspectRatio: `${project.width} / ${project.height}`,
-              "--image-ratio": project.width / project.height,
+              aspectRatio: `${display.width} / ${display.height}`,
+              "--image-ratio": display.width / display.height,
             } as CSSProperties)
           : undefined
       }
     >
       {project.image ? (
         <ProjectImage
-          key={project.image}
-          src={project.image}
+          key={display.image}
+          src={display.image!}
           alt={project.alt}
           priority={priority}
-          width={project.width}
-          height={project.height}
+          width={display.width}
+          height={display.height}
         />
       ) : (
         <div className="art-graphic" role="img" aria-label={project.alt}>

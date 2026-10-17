@@ -2681,3 +2681,51 @@ html {
     height: auto;
   }
 }
+
+/* V4.2 — larger, tightly curated artwork; no cover-cropping. */
+.real-art-composition{max-width:760px;aspect-ratio:1/1.25;margin:12px auto 38px}
+.real-art-composition :is(.hero-art.hero-art-1,.hero-frame.frame-1){width:48%;left:26%;top:2%;--rot:-1deg;z-index:4}
+.real-art-composition :is(.hero-art.hero-art-2,.hero-frame.frame-2){width:27%;left:0%;top:0%;--rot:-3deg;z-index:2}
+.real-art-composition :is(.hero-art.hero-art-3,.hero-frame.frame-3){width:26%;left:74%;top:3%;--rot:2deg;z-index:2}
+.real-art-composition :is(.hero-art.hero-art-4,.hero-frame.frame-4){width:31%;left:0%;top:46%;--rot:-2deg;z-index:3}
+.real-art-composition :is(.hero-art.hero-art-5,.hero-frame.frame-5){width:32%;left:34%;top:53%;--rot:1deg;z-index:3}
+.real-art-composition :is(.hero-art.hero-art-6,.hero-frame.frame-6){width:30%;left:70%;top:45%;--rot:2deg;z-index:3}
+.real-art-composition :is(.hero-art,.hero-frame){transition:transform 900ms cubic-bezier(.22,1,.36,1),opacity 900ms;box-shadow:0 22px 44px #000b}
+@media (prefers-reduced-motion:no-preference){
+.real-art-composition .hero-art .artwork,.real-art-composition .hero-frame .project-picture{animation:ls-depth 1800ms ease-out both}
+.real-art-composition :is(.hero-art-2,.frame-2,.hero-art-5,.frame-5) :is(.artwork,.project-picture){animation-delay:150ms}
+.real-art-composition :is(.hero-art-3,.frame-3,.hero-art-6,.frame-6) :is(.artwork,.project-picture){animation-delay:300ms}
+.real-art-composition .hero-frame{animation:ls-art-reveal 1000ms cubic-bezier(.22,1,.36,1) both;animation-delay:var(--entrance-delay,0ms)}
+}
+@keyframes ls-depth{from{translate:0 0}to{translate:0 -3px}}
+@keyframes ls-art-reveal{from{opacity:0;translate:0 18px}to{opacity:1;translate:0 0}}
+/* Two flowing editorial columns avoid the empty cells of matched grid rows. */
+.project-grid,#portfolioGrid{display:block;columns:2;column-gap:clamp(22px,4vw,58px)}
+.project-grid>.project-entry,#portfolioGrid>.project-card{display:inline-block;vertical-align:top;break-inside:avoid;width:100%;margin:0 0 36px}
+.project-grid>.project-entry:nth-child(3n + 2),#portfolioGrid>.project-card:nth-child(3n + 2){width:89%;margin-left:11%}
+.project-grid>.project-entry:nth-child(3n),#portfolioGrid>.project-card:nth-child(3n){width:94%}
+.project-grid .project-open,#portfolioGrid .project-media{overflow:visible;background:transparent;transition:transform 700ms cubic-bezier(.22,1,.36,1),outline-color 500ms}
+.project-grid .project-caption,#portfolioGrid .project-caption{align-items:flex-start;flex-wrap:wrap;row-gap:5px}
+.project-grid .project-caption>div{min-width:0}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+.project-grid .project-open:has(.artwork-real):hover,#portfolioGrid .project-media:has(.project-picture):hover{transform:translateY(-3px) scale(1.012)}
+}
+@media(max-width:700px){
+.real-art-composition{max-width:470px;aspect-ratio:1/2.5;margin:28px auto 38px}
+.real-art-composition :is(.hero-art.hero-art-1,.hero-frame.frame-1){width:61%;left:1%;top:0;--rot:-1deg}
+.real-art-composition :is(.hero-art.hero-art-2,.hero-frame.frame-2){width:34%;left:65%;top:0;--rot:2deg}
+.real-art-composition :is(.hero-art.hero-art-3,.hero-frame.frame-3){width:34%;left:65%;top:26%;--rot:-1deg}
+.real-art-composition :is(.hero-art.hero-art-4,.hero-frame.frame-4){width:59%;left:1%;top:33%;--rot:1deg}
+.real-art-composition :is(.hero-art.hero-art-5,.hero-frame.frame-5){width:47%;left:1%;top:66%;--rot:-1deg}
+.real-art-composition :is(.hero-art.hero-art-6,.hero-frame.frame-6){width:46%;left:53%;top:63%;--rot:2deg}
+.real-art-composition .hero-art .artwork,.real-art-composition .hero-frame .project-picture{animation:none}
+.project-grid,#portfolioGrid{columns:1}
+.project-grid>.project-entry,#portfolioGrid>.project-card{width:100%;margin-bottom:30px}
+.project-grid>.project-entry:nth-child(3n + 2),#portfolioGrid>.project-card:nth-child(3n + 2){width:92%;margin-left:8%}
+.project-grid>.project-entry:nth-child(3n),#portfolioGrid>.project-card:nth-child(3n){width:96%}
+}
+@media(prefers-reduced-motion:reduce){
+.real-art-composition :is(.hero-art,.hero-frame,.artwork,.project-picture),.project-grid .project-open,#portfolioGrid .project-media{animation:none!important;transition:none!important;translate:none!important}
+}
+
+@media(min-width:1100px){.hero-grid{grid-template-columns:.9fr 1.1fr;gap:32px}}
