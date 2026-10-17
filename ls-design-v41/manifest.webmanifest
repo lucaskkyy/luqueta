@@ -1,0 +1,17 @@
+{
+  "name": "LS Design — Sports Creative Studio",
+  "short_name": "LS Design",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/branding/LS_logo_instagram_original.png",
+      "sizes": "1080x1080",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="LS Design">
+  <meta property="og:image" content="assets/og-ls-design.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="1080x1080" href="assets/branding/LS_logo_instagram_original.png">
+  <link rel="apple-touch-icon" sizes="1080x1080" href="assets/branding/LS_logo_instagram_original.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <!-- Após escolher o domínio, preencher canonical, og:url e usar URL absoluta em og:image. -->
+  <script>document.documentElement.classList.add('js')</script>
+  <meta name="description" content="LS Design — direção criativa e design esportivo para atletas, clubes e campeonatos. Mais de 750 projetos entregues. Conheça o portfólio e solicite um orçamento.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LS Design — O jogo começa no visual">
+  <meta property="og:description" content="Design esportivo de alto impacto para atletas, clubes e equipes.">
+  <title>LS Design — O jogo começa no visual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+/* LS DESIGN V4.1 — consolidado; uma regra por seletor/contexto. */
+:root{color-scheme:dark;--display:"Barlow Condensed",Impact,"Arial Narrow",sans-serif;--body:"DM Sans",Arial,sans-serif;--wrap:1240px;--bg:#000000;--surface:#0B0D12;--surface-raised:#1F1F22;--ink:#FFFFFF;--muted:#A1A1AA;--blue:#1877D2;--blue-light:#48A5FF;--line:rgba(255,255,255,.17);--serif:Georgia,serif}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased;background:#000;overflow-x:clip}
+::selection{background:var(--blue);color:white}
+a{color:inherit;text-decoration:none}
+button,input,textarea,select{font:inherit}
+button{cursor:pointer}
+img{max-width:100%;display:block}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--blue-light);outline-offset:4px}
+h1,h2,h3,p{margin-top:0}
+.container{max-width:var(--wrap);margin-inline:auto;padding-inline:clamp(22px,4.8vw,68px);min-width:0}
+.eyebrow{text-transform:uppercase;font-weight:700;display:flex;align-items:center;gap:11px;color:#ddd;font-size:12px;letter-spacing:.12em;line-height:1.6;flex-wrap:wrap}
+.eyebrow .dash{width:20px;height:2px;background:rgba(255,255,255,.36);display:block}
+.display{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.94;letter-spacing:-.027em}
+.section-title{margin:23px 0 0;max-width:860px;font-size:clamp(56px,7.7vw,113px);line-height:.96;letter-spacing:-.027em}
+.small-copy{font-size:clamp(15px,1.25vw,17px);line-height:1.72;color:#b4b4bf}
+.link-inline{display:inline-flex;align-items:center;gap:16px;padding-block:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;border-bottom:1px solid rgba(255,255,255,.45);transition:gap .3s,color .3s;font-size:12px;min-height:44px}
+.link-inline:hover{gap:23px;color:var(--blue-light)}
+.grain{pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.77' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.27'/%3E%3C/svg%3E");position:absolute;inset:0 auto auto 0;width:100%;height:100%;z-index:1;opacity:.035;background-size:220px}
+.nav{position:fixed;inset:0 0 auto;z-index:80;border-bottom:1px solid transparent;transition:background .35s,border-color .35s,backdrop-filter .35s,-webkit-backdrop-filter .35s}
+.nav.scrolled{border-color:var(--line);background:rgba(0,0,0,.88);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+.nav-inner{height:88px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.nav-links{display:flex;align-items:center;gap:clamp(17px,2.5vw,36px)}
+.nav-links a{font-weight:700;color:#c1c2c6;transition:color .2s;font-size:12px;min-height:44px;display:inline-flex;align-items:center}
+.nav-links a:hover,.nav-links a.active{color:#fff}
+.nav-actions{display:flex;align-items:center;gap:14px}
+.nav-cta{letter-spacing:.07em;text-transform:uppercase;border:1px solid rgba(255,255,255,.27);padding:14px 19px;display:inline-flex;align-items:center;gap:22px;font-weight:700;transition:background .2s,border-color .2s;font-size:11px;min-height:44px}
+.nav-cta:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.menu-toggle{display:none;align-items:center;justify-content:center;width:44px;height:44px;background:none;border:1px solid var(--line);color:white}
+.menu-toggle span,.menu-toggle span::before,.menu-toggle span::after{display:block;content:"";width:19px;height:1.5px;background:white;transition:transform .25s}
+.menu-toggle span::before{transform:translateY(-6px)}
+.menu-toggle span::after{transform:translateY(4px)}
+.menu-toggle[aria-expanded=true] span{background:transparent}
+.menu-toggle[aria-expanded=true] span::before{transform:translateY(1px) rotate(45deg)}
+.menu-toggle[aria-expanded=true] span::after{transform:translateY(-1px) rotate(-45deg)}
+.mobile-menu{display:none;background:rgba(0,0,0,.97);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.hero{display:flex;align-items:center;position:relative;isolation:isolate;padding-top:88px;border-bottom:1px solid var(--line);min-height:100svh;background:#000;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 78% 50%,rgba(24,119,210,.07),transparent 45%)}
+.hero-content{display:grid;gap:clamp(20px,4vw,70px);align-items:center;width:100%;grid-template-columns:minmax(0,.98fr) minmax(0,1.02fr);padding-top:72px;padding-bottom:95px}
+.hero-title{max-width:650px;font-size:clamp(78px,8vw,132px);line-height:.85;letter-spacing:-.045em;margin:25px 0 31px;overflow-wrap:normal}
+.hero-title .text-outline{color:#fff;-webkit-text-stroke:0}
+.hero-title .dot{display:inline-block;transform:translateX(2px);color:var(--blue)}
+.hero-description{font-size:16px;line-height:1.8;max-width:410px;color:#c0c0cb}
+.button-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;padding:15px 19px;background:var(--blue);border:1px solid var(--blue);color:white;font-weight:800;text-transform:uppercase;font-size:11px;letter-spacing:.065em;min-height:49px;transition:transform .3s cubic-bezier(.2,.8,.2,1),background .3s,border-color .3s}
+.btn:hover{transform:translateY(-3px);background:var(--blue-light);border-color:var(--blue-light);color:#000}
+.btn.ghost{background:rgba(255,255,255,.015);border-color:rgba(255,255,255,.27)}
+.btn.ghost:hover{border-color:white;background:#fff;color:#000}
+.arrow-icon{font-size:18px;font-weight:400;line-height:0}
+.hero-proof{margin-top:42px;display:flex;align-items:center;gap:22px}
+.hero-proof strong{font-family:var(--display);font-weight:800;font-size:45px;line-height:1}
+.hero-proof strong span{color:var(--blue)}
+.hero-proof .vertical-rule{height:35px;background:var(--line);width:1px}
+.hero-proof small{line-height:1.8;letter-spacing:.14em;text-transform:uppercase;font-size:11px;color:#babac6}
+.hero-bottom{position:absolute;bottom:28px;left:0;right:0;display:flex;align-items:center;justify-content:space-between;letter-spacing:.21em;text-transform:uppercase;z-index:2;color:#b1b1bd;font-size:11px}
+.hero-bottom .scroll-cue{color:#fff;display:flex;gap:15px;align-items:center}
+.hero-bottom .scroll-cue span{font-size:17px;color:var(--blue-light)}
+.hero-gallery{position:relative;height:min(590px,53vw);min-height:0;isolation:isolate;overflow:visible;max-width:640px;margin-inline:auto;width:100%}
+.hero-gallery .hero-frame{position:absolute;width:var(--w,32%);aspect-ratio:var(--ar,4/5);max-width:none;transition:transform .55s cubic-bezier(.2,.75,.2,1);will-change:auto;animation:hero-card-appear .8s both;animation-delay:var(--entrance-delay,0ms);background:var(--surface);box-shadow:0 23px 55px rgba(0,0,0,.5);top:auto;bottom:auto;left:auto;right:auto;z-index:var(--z,1);translate:0 0;transform:rotate(var(--rot,0deg));max-height:100%}
+.hero-hint{position:absolute;bottom:0;font-size:9px;color:#77808c;letter-spacing:.23em;text-transform:uppercase;left:0}
+.hero-count{position:absolute;bottom:0;font-size:9px;color:#77808c;letter-spacing:.23em;right:0}
+.poster{height:100%;width:100%;position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;background:#153d7a;border:1px solid rgba(255,255,255,.1);user-select:none;border-color:rgba(255,255,255,.08)}
+.poster::before{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0;transform:none;background:repeating-linear-gradient(0deg,transparent 0 17px,rgba(255,255,255,.025) 18px 19px)}
+.poster::after{content:"";position:absolute;border:clamp(22px,4.5vw,65px) solid rgba(255,255,255,.08);aspect-ratio:1;border-radius:50%;z-index:-1;width:82%;left:28%;top:20%;border-width:clamp(20px,4vw,55px)}
+.poster-top,.poster-bottom{display:flex;align-items:center;justify-content:space-between;letter-spacing:.16em;text-transform:uppercase;font-weight:700;gap:10px;font-size:clamp(9px,.65vw,11px);padding:clamp(9px,1.25vw,18px)}
+.poster-bottom{border-top:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.75)}
+.poster-center{padding:8% 9%}
+.poster-center strong{font-family:var(--display);font-weight:800;letter-spacing:-.028em;text-transform:uppercase;display:block;font-style:italic;transform:skew(-4deg);font-size:clamp(34px,5vw,84px);line-height:.9}
+.poster--ice{background:#d5dfe5;color:#101b25}
+.poster--ice::before{background:repeating-linear-gradient(-20deg,transparent 0 20px,rgba(2,25,50,.04) 21px 22px)}
+.poster--ice::after{border-color:rgba(18,40,55,.1);border-radius:0;transform:rotate(24deg)}
+.poster--ice .poster-bottom{border-color:rgba(0,0,0,.18);color:#45515b}
+.poster--orange{background:#dd603b;color:white}
+.poster--orange::after{border-radius:50%;border-color:rgba(255,255,255,.11)}
+.poster--night{background:#10151c;color:#eef2f6}
+.poster--night::after{border-radius:0;transform:rotate(42deg);border-color:rgba(48,137,248,.18)}
+.poster--electric{background:#277bf4}
+.poster--electric::after{border-radius:0;transform:rotate(-20deg)}
+.poster--steel{background:#8a9fac;color:#101821}
+.poster--steel::after{border-color:rgba(2,19,29,.14)}
+.poster-tag{position:absolute;left:9%;letter-spacing:.15em;text-transform:uppercase;color:inherit;opacity:.65;font-size:11px;bottom:16%}
+.ticker{border-bottom:1px solid var(--line);padding:24px 0;overflow:hidden;mask-image:linear-gradient(to right,transparent,black 6%,black 94%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,black 6%,black 94%,transparent);outline-offset:-2px}
+.ticker-track{display:flex;width:max-content;animation:marquee 32s linear infinite;animation-duration:34s}
+.ticker-set{display:flex;flex-shrink:0;align-items:center;gap:40px;padding-right:40px}
+.ticker-item{font-family:var(--display);font-weight:700;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;color:#b6b8bd;font-size:clamp(22px,2.2vw,30px)}
+.ticker-item i{font-style:normal;color:var(--blue);font-size:13px;margin-right:40px;vertical-align:4px}
+section.content-section{padding:clamp(108px,12vw,190px) 0}
+.section-head{display:flex;gap:60px;align-items:end;justify-content:space-between;margin-bottom:57px}
+.section-head .small-copy{max-width:380px}
+.section-head .display{margin-bottom:0}
+.portfolio-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(18px,2.6vw,35px);align-items:start}
+.project-card{position:relative;grid-column:span 5;min-width:0}
+.project-card:nth-child(4n/**/+2){margin-top:80px}
+.project-media{cursor:pointer;display:block;width:100%;padding:0;border:none;text-align:left;position:relative;aspect-ratio:var(--project-ratio,4/5);min-height:0;background:#0b0d12;overflow:hidden}
+.project-media::after{content:"↗";position:absolute;right:18px;top:18px;width:39px;height:39px;place-items:center;background:white;color:#000;font-size:20px;transform:translateY(-10px);opacity:0;transition:opacity .25s,transform .25s;display:none}
+.project-media:hover::after,.project-media:focus-visible::after{opacity:1;transform:translateY(0)}
+.project-media .poster{transform:scale(1.01);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.project-media:hover .poster{transform:scale(1.06)}
+.project-media .poster-center strong{font-size:clamp(46px,7vw,113px)}
+.project-media .poster-top,.project-media .poster-bottom{font-size:9px}
+.project-caption{display:flex;align-items:center;justify-content:space-between;gap:15px;padding-top:17px}
+.project-caption h3{font-weight:600;margin:0;font-size:16px}
+.project-caption span{color:var(--muted);text-transform:uppercase;letter-spacing:.13em;font-size:12px}
+.filter-row{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:34px}
+.filter{background:transparent;color:#b7bac0;border:1px solid var(--line);text-transform:uppercase;letter-spacing:.07em;font-weight:700;transition:background .2s,color .2s;min-height:44px;padding:12px 17px;font-size:12px}
+.filter:hover,.filter.active{background:white;color:var(--surface);border-color:white}
+.portfolio-end{display:flex;justify-content:center;margin-top:55px}
+.hint-note{margin-top:30px;text-align:center;color:var(--muted);font-size:12px;letter-spacing:.04em}
+.editorial{display:grid;grid-template-columns:1fr 1fr;gap:clamp(35px,7vw,112px);align-items:center}
+.editorial .display{font-size:clamp(60px,7.5vw,110px);margin:23px 0 29px}
+.editorial-copy{max-width:430px}
+.editorial-copy .small-copy{max-width:350px}
+.editorial .link-inline{margin-top:24px}
+.art-showcase{position:relative;min-height:560px;background:linear-gradient(135deg,var(--surface),var(--bg));border:1px solid var(--line);display:grid;place-items:center;overflow:hidden}
+.art-showcase::before{content:"";position:absolute;width:80%;aspect-ratio:1;border-radius:50%;background:var(--blue);filter:blur(65px);opacity:.045}
+.art-showcase .large-art{position:relative;width:64%;aspect-ratio:3/4;transform:rotate(-7deg);box-shadow:0 35px 90px #000;transition:transform .7s}
+.art-showcase:hover .large-art{transform:rotate(-3deg) scale(1.04)}
+.art-showcase .side-art{position:absolute;width:38%;aspect-ratio:3/4;right:-4%;bottom:-8%;transform:rotate(11deg);box-shadow:0 30px 60px #000}
+.art-showcase .showcase-mark{position:absolute;top:24px;left:24px;letter-spacing:.2em;font-size:9px;color:#b5bccb;text-transform:uppercase}
+.package-stack{position:relative;height:555px;display:flex;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--line);overflow:hidden}
+.package-stack .pack{position:absolute;width:44%;height:67%;box-shadow:0 25px 55px rgba(0,0,0,.65);transition:transform .5s cubic-bezier(.15,.8,.2,1);max-width:none}
+.package-stack .pack:nth-of-type(1){left:9%;transform:rotate(-12deg) translateY(21px)}
+.package-stack .pack:nth-of-type(2){left:32%;transform:rotate(1deg) translateY(-16px)}
+.package-stack .pack:nth-of-type(3){left:55%;transform:rotate(11deg) translateY(13px)}
+.package-stack:hover .pack:nth-of-type(1){transform:rotate(-17deg) translate(-18px,19px)}
+.package-stack:hover .pack:nth-of-type(2){transform:rotate(0deg) translateY(-27px)}
+.package-stack:hover .pack:nth-of-type(3){transform:rotate(17deg) translate(18px,13px)}
+.package-stack .poster-center strong{font-size:clamp(35px,4.2vw,75px)}
+.studio{border-block:1px solid var(--line);background:var(--surface)}
+.studio-photo{height:600px;position:relative;border:1px solid var(--line);overflow:hidden;display:flex;align-items:center;justify-content:center;flex-direction:column;background:linear-gradient(140deg,#142039,#080b10)}
+.studio-photo .big-ls{font-family:var(--display);font-weight:900;font-style:italic;font-size:clamp(170px,21vw,330px);letter-spacing:-.13em;line-height:1;color:rgba(255,255,255,.12);transform:skew(-6deg);margin-left:-30px}
+.studio-photo p{position:relative;text-transform:uppercase;font-size:12px;letter-spacing:.24em;color:#aeb5c1;margin-top:-35px}
+.photo-corner{position:absolute;left:25px;bottom:25px;font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:#7d899a}
+.studio .studio-aside{display:flex;align-items:center;gap:16px;margin-top:33px}
+.studio .studio-aside strong{font-family:var(--display);font-size:56px}
+.studio .studio-aside span{font-size:12px;color:var(--muted);line-height:1.8;text-transform:uppercase;letter-spacing:.14em}
+.process-list{margin-top:56px;border-top:1px solid var(--line)}
+.process-row{display:grid;grid-template-columns:90px 1fr 1fr;align-items:center;gap:25px;padding:28px 0;border-bottom:1px solid var(--line);transition:padding-left .3s}
+.process-row:hover{padding-left:12px}
+.process-row .num{font-size:12px;color:#9dbfe6}
+.process-row h3{font-family:var(--display);font-size:clamp(29px,3.7vw,48px);line-height:1;text-transform:uppercase;margin:0}
+.process-row p{color:var(--muted);line-height:1.7;max-width:330px;margin:0;font-size:15px}
+.services-list{margin-top:65px;border-top:1px solid var(--line)}
+.service-row{display:grid;grid-template-columns:35px 1fr auto;align-items:center;gap:20px;border-bottom:1px solid var(--line);padding:28px 4px;transition:padding .3s,background .3s;min-height:82px}
+.service-row:hover{padding-inline:17px;background:#0b0d12}
+.service-row .index{font-size:12px;color:#b9b9c2}
+.service-row h3{font-size:clamp(23px,3vw,37px);letter-spacing:-.045em;margin:0;font-weight:500}
+.service-row .service-arrow{font-size:25px;transition:transform .3s;color:var(--blue-light)}
+.service-row:hover .service-arrow{transform:translate(4px,-4px)}
+.faq{max-width:850px;margin-inline:auto}
+.faq .section-title{text-align:center;font-size:clamp(57px,7vw,99px);margin-bottom:55px}
+.faq .eyebrow{justify-content:center}
+.faq-list{border:1px solid var(--line);border-color:var(--line)}
+.faq-item+.faq-item{border-top:1px solid var(--line)}
+.faq-q{display:flex;align-items:center;justify-content:space-between;gap:25px;width:100%;padding:23px 25px;border:0;background:none;text-align:left;color:white;font-weight:600;list-style:none;cursor:pointer;min-height:64px;font-size:16px;line-height:1.5}
+.faq-plus{display:inline-block;font-size:21px;font-weight:300;transition:transform .3s;color:var(--blue-light)}
+.faq-q[aria-expanded=true] .faq-plus{transform:rotate(45deg)}
+.faq-answer{display:block;grid-template-rows:none;transition:none;padding-top:0}
+.faq-item.open .faq-answer{grid-template-rows:1fr}
+.faq-answer p{padding:0 54px 23px 25px;margin:0;font-size:15px;line-height:1.75;color:#b8b8c1}
+.contact-strip{border-top:1px solid var(--line);background:var(--surface)}
+.contact-card{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;padding-block:clamp(90px,10vw,135px)}
+.contact-card .display{font-size:clamp(67px,8vw,119px);margin:25px 0 25px}
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-content:center}
+.field{display:flex;flex-direction:column;gap:9px}
+.field.full{grid-column:1/-1}
+.field label{color:#c6c8cd;letter-spacing:.11em;text-transform:uppercase;font-weight:700;font-size:12px}
+.field input,.field select,.field textarea{min-height:49px;width:100%;padding:14px 13px;background:var(--surface);border:1px solid rgba(255,255,255,.17);color:white;border-radius:0;outline:none;transition:border-color .2s;font-size:16px}
+.field textarea{min-height:125px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--blue)}
+.field input::placeholder,.field textarea::placeholder{color:#A1A1AA}
+.field select option{background:var(--surface)}
+.form-buttons{display:flex;gap:10px;flex-wrap:wrap;grid-column:1/-1;margin-top:4px}
+.form-status{grid-column:1/-1;min-height:22px;font-size:12px;color:#b7cdec;line-height:1.6}
+.form-note{grid-column:1/-1;font-size:11px;line-height:1.6;color:#888e99;margin:0}
+.form-note a{color:#dce5f8;text-decoration:underline;text-underline-offset:3px}
+.footer{position:relative;overflow:hidden;padding:100px 0 25px;background:#000}
+.footer::before{content:"LS";font-family:var(--display);font-weight:900;font-style:italic;font-size:min(44vw,760px);letter-spacing:-.14em;line-height:1;position:absolute;right:-5%;top:-13%;color:rgba(255,255,255,.018);pointer-events:none;display:none}
+.footer-cta{position:relative;border-bottom:1px solid var(--line);padding-bottom:100px}
+.footer-cta .display{font-size:clamp(78px,11vw,165px);max-width:900px;margin:23px 0}
+.footer-cta .display em{letter-spacing:-.045em;font-family:var(--display);font-style:normal;font-weight:800;text-transform:uppercase;color:#fff}
+.footer .footer-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:45px;padding-block:75px}
+.footer-col-title{text-transform:uppercase;letter-spacing:.16em;font-weight:800;margin-bottom:24px;font-size:12px}
+.footer-grid p,.footer-grid a{display:block;line-height:1.85;font-size:13px;color:#b7b7c0}
+.footer-grid a{margin-bottom:11px;transition:color .2s}
+.footer-grid a:hover{color:white}
+.footer-grid .footer-desc{max-width:220px;margin-top:20px}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:23px;font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#b1b1bd}
+.backtop{background:none;border:0;color:white;font-size:12px;text-transform:uppercase;letter-spacing:.12em}
+.lightbox{position:fixed;inset:0;z-index:130;display:grid;grid-template-rows:auto 1fr auto;visibility:hidden;opacity:0;transition:opacity .25s,visibility .25s;overflow:auto;overscroll-behavior:contain;background:rgba(0,0,0,.96);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.lightbox.is-open{visibility:visible;opacity:1}
+.lightbox-top{display:flex;justify-content:space-between;align-items:center;padding:19px clamp(20px,4vw,54px);gap:20px;border-bottom:1px solid var(--line)}
+.lightbox-top span{font-size:11px;text-transform:uppercase;letter-spacing:.18em}
+.icon-btn{background:var(--surface-raised);border:1px solid var(--line);color:white;width:45px;height:45px;font-size:24px;min-width:44px;min-height:44px;flex-shrink:0}
+.lightbox-body{display:flex;align-items:center;justify-content:center;gap:25px;padding:24px;min-height:0;overscroll-behavior:contain}
+.lightbox-stage{box-shadow:0 30px 100px black;width:auto;height:min(70dvh,710px);max-height:70dvh;max-width:min(78vw,1120px);aspect-ratio:var(--lightbox-ratio,4/5);background:#0B0D12;display:grid;place-items:center}
+.lightbox-stage .poster-center strong{font-size:clamp(60px,8vw,135px)}
+.lightbox-stage img{width:100%;height:100%;object-fit:contain;background:var(--surface)}
+.lightbox-nav{font-size:25px}
+.lightbox-bottom{padding:18px 30px 25px;text-align:center;color:#adb1b9;font-size:12px;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center}
+.lightbox-bottom strong{color:white;margin-right:8px}
+[data-reveal]{opacity:1;transform:none}
+[hidden]{display:none!important}
+main,footer{max-width:100%}
+.skip-link{position:fixed;left:12px;top:8px;z-index:250;transform:translateY(-160%);background:#fff;color:#000;padding:15px 18px;font-weight:700;transition:transform .2s}
+.skip-link:focus{transform:none}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+:where(a,button,summary,input,textarea,select):focus-visible{outline:2px solid var(--blue-light);outline-offset:3px}
+.small-divider{color:#A1A1AA}
+.nav-links a[aria-current=true]{color:var(--blue-light)}
+.mobile-menu a{min-height:55px}
+.nav .menu-toggle{flex-shrink:0}
+.hero-copy{position:relative;z-index:3;min-width:0}
+.hero-gallery .hero-frame.frame-1{top:30%;left:29%;--w:38%;--ar:4/5;--rot:-3deg;--z:4}
+.hero-gallery .hero-frame.frame-2{top:2%;right:2%;--w:23%;--ar:4/5;--rot:4deg;--z:2}
+.hero-gallery .hero-frame.frame-3{top:4%;left:3%;--w:21%;--ar:9/16;--rot:-4deg;--z:1}
+.hero-gallery .hero-frame.frame-4{bottom:7%;right:1%;--w:25%;--ar:4/5;--rot:3deg;--z:5}
+.hero-gallery .hero-frame.frame-5{bottom:2%;left:4%;--w:24%;--ar:1;--rot:-2deg;--z:6}
+.hero-gallery .hero-frame.frame-6{bottom:4%;left:37%;--w:28%;--ar:16/9;--rot:1deg;--z:3}
+.hero-gallery .frame-1,.hero-gallery .frame-4{translate:var(--parallax-x,0px) var(--parallax-y,0px)}
+.hero-hint,.hero-count{color:#b3b4bd;font-size:11px;bottom:-14px}
+.hero-gallery .poster-center strong{font-size:clamp(17px,2vw,30px);line-height:.9;overflow-wrap:normal}
+.project-picture{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:var(--surface)}
+.project-picture img{width:100%;height:100%;object-fit:contain;display:block}
+.ticker:hover .ticker-track,.ticker:focus-within .ticker-track,.ticker.is-paused .ticker-track,.ticker.is-hidden .ticker-track{animation-play-state:paused}
+.project-card.is-featured{grid-column:span 7}
+.project-card:nth-child(4n + 2){margin-top:95px}
+.project-card:nth-child(4n + 3){margin-top:0}
+.project-media .poster,.project-media picture{height:100%}
+.card-view{position:absolute;bottom:20px;left:20px;padding:12px 14px;background:#fff;color:#000;transform:translateY(12px);opacity:0;transition:transform .3s,opacity .3s;font-size:12px;font-weight:800;letter-spacing:.08em}
+.project-media:hover .card-view,.project-media:focus-visible .card-view{opacity:1;transform:none}
+.project-media:hover .poster,.project-media:hover .project-picture{transform:scale(1.045)}
+.project-media .project-picture{transition:transform .7s}
+.art-showcase,.package-stack{background:var(--surface);min-width:0}
+.art-showcase .showcase-mark,.package-mark{font-size:12px;color:#c8ced7}
+.package-mark{position:absolute;left:24px;top:24px;letter-spacing:.12em;z-index:6}
+.studio-photo p,.photo-corner{color:#c6c6d0;font-size:12px}
+.faq-q::-webkit-details-marker{display:none}
+.faq-item[open] .faq-plus{transform:rotate(45deg)}
+.field-error{color:#ffc1be;font-size:12px;min-height:0;line-height:1.6}
+.field [aria-invalid=true]{border-color:#e68f8b}
+.form-note,.form-status{font-size:13px}
+.post-briefing{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap}
+.manual-briefing{width:100%;min-height:125px;color:white;background:#1f1f22;border:1px solid var(--line);padding:12px}
+.footer-bottom button{min-height:44px}
+.floating-contact{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));z-index:75;padding:12px 17px;border:1px solid rgba(255,255,255,.35);background:#0B0D12;color:#fff;font-size:12px;font-weight:700;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 10px 35px #0008;min-height:44px;opacity:0;pointer-events:none;transform:translateY(12px);transition:opacity .3s,transform .3s}
+.floating-contact.is-visible{opacity:1;pointer-events:auto;transform:none}
+.floating-contact:hover{background:var(--blue)}
+.lightbox-stage .poster,.lightbox-stage .project-picture{width:100%;height:100%}
+.lightbox-stage .project-picture img{object-fit:contain}
+.lightbox-bottom .btn{min-height:44px}
+.js [data-reveal]{opacity:0;transform:translateY(35px);transition:transform .8s cubic-bezier(.2,.72,.18,1),opacity .8s;transition-delay:var(--delay,0ms)}
+.js [data-reveal].revealed{opacity:1;transform:none}
+.js .hero-copy [data-reveal]{transition-duration:1s}
+.js .portfolio-grid [data-reveal]:nth-child(3n/**/+2){--delay:100ms}
+.js .portfolio-grid [data-reveal]:nth-child(3n/**/+3){--delay:170ms}
+.noscript-note{margin:105px auto 0;max-width:900px;padding:15px 22px;color:#fff;background:#1F1F22;border:1px solid #555;font-size:15px}
+.footer-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.2;pointer-events:none}
+.footer:has(.footer-video:not([hidden]))::after{content:"";position:absolute;inset:0;background:linear-gradient(#000a,#0009,#000);pointer-events:none}
+.footer>.container{position:relative;z-index:2}
+#showMore,.contact-form{display:none}
+.js #showMore:not([hidden]){display:inline-flex}
+.js .contact-form{display:grid}
+.hero-gallery .hero-frame:hover{transform:rotate(var(--rot,0deg)) translateY(-6px)}
+.hero-gallery .frame-1 .poster-center strong{font-size:clamp(27px,3vw,43px)}
+.hero-gallery .poster-top,.hero-gallery .poster-bottom{font-size:clamp(7px,.56vw,9px)}
+@keyframes marquee{to{transform:translateX(-50%)}}
+@keyframes hero-card-appear{from{opacity:0;translate:0 35px}to{opacity:1;translate:0 0}}
+@media (max-width:1100px){
+.nav-links{gap:16px}
+.hero-title{font-size:clamp(76px,8.2vw,111px)}
+.hero-gallery{height:min(510px,50vw)}
+.section-title{font-size:clamp(63px,8vw,90px)}
+.editorial .display{font-size:clamp(60px,7vw,94px)}
+}
+@media (max-width:820px){
+.nav-inner{height:77px}
+.nav-links,.nav-cta{display:none}
+.menu-toggle{display:flex}
+.mobile-menu{display:block;position:absolute;top:77px;left:0;right:0;background:rgba(5,6,8,.97);border-bottom:1px solid var(--line);padding:18px 22px 26px;opacity:0;visibility:hidden;transform:translateY(-12px);transition:opacity .3s,visibility .3s,transform .3s}
+.mobile-menu.open{opacity:1;visibility:visible;transform:none}
+.mobile-menu a{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);font-family:var(--display);font-weight:700;text-transform:uppercase;padding:12px 0;font-size:33px}
+.mobile-menu .mobile-cta{color:var(--blue-light)}
+.hero{min-height:100svh;padding-top:77px}
+.hero-content{display:grid;grid-template-columns:minmax(0,1fr);padding-top:45px;padding-bottom:100px;gap:35px}
+.hero-title{max-width:650px;font-size:clamp(85px,13.8vw,122px)}
+.hero-gallery{height:540px;max-width:620px;width:100%;margin-inline:auto}
+.hero-gallery .hero-frame{max-width:275px}
+.hero-bottom{bottom:18px}
+.hero-bottom > span:last-child{display:none}
+.section-head{align-items:start;flex-direction:column;gap:15px}
+.editorial{grid-template-columns:1fr;gap:50px;min-width:0}
+.editorial .editorial-copy{max-width:650px}
+.editorial.reverse .editorial-copy{order:-1}
+.art-showcase,.package-stack{min-height:500px;height:500px}
+.studio-photo{height:530px}
+.process-row{grid-template-columns:65px 1fr}
+.process-row p{grid-column:2}
+.contact-card{grid-template-columns:1fr;gap:45px}
+.footer .footer-grid{grid-template-columns:1.5fr 1fr 1fr;gap:30px}
+.footer .footer-grid > div:first-child{grid-column:1/-1}
+.portfolio-grid{gap:20px}
+.project-card:nth-child(4n/**/+2){margin-top:45px}
+.section-title{font-size:clamp(59px,8vw,87px)}
+.footer-cta .display{font-size:clamp(70px,10vw,110px)}
+}
+@media (max-width:560px){
+.container{padding-inline:20px}
+.hero-content{padding-top:27px;gap:14px;padding-bottom:85px}
+.hero-title{line-height:.9;letter-spacing:-.037em;margin:20px 0 15px;font-size:clamp(62px,14.5vw,83px)}
+.hero-description{font-size:15px;max-width:325px;line-height:1.5}
+.hero-gallery{margin-top:0;height:350px;width:100%;max-width:390px}
+.hero-gallery .hero-frame{width:var(--w,25%);max-width:none}
+.hero-gallery .poster-center strong{font-size:clamp(19px,5.4vw,27px)}
+.hero-gallery .poster-top,.hero-gallery .poster-bottom{font-size:8px;padding:7px}
+.hero-gallery .hero-hint,.hero-gallery .hero-count{font-size:9px}
+.hero-bottom{display:none}
+.hero-proof{margin-top:16px}
+.hero-proof strong{font-size:43px}
+.button-row .btn{gap:4px;min-height:46px;min-width:0;font-size:10px;padding:10px 9px;width:100%}
+.ticker{padding:17px 0}
+.ticker-item{font-size:21px}
+.section-head{margin-bottom:35px}
+.section-title{font-size:clamp(51px,11.2vw,74px);line-height:1;overflow-wrap:anywhere}
+section.content-section{padding:90px 0}
+.portfolio-grid{grid-template-columns:1fr;gap:32px}
+.project-card{margin-top:0;width:94%}
+.project-card:nth-child(4n/**/+2){margin-top:0}
+.project-media{aspect-ratio:var(--project-ratio,4/5)}
+.project-media .poster-center strong{font-size:clamp(40px,14vw,83px)}
+.project-caption h3{font-size:15px}
+.project-caption span{font-size:9px}
+.portfolio-end{margin-top:40px}
+.editorial .display{font-size:clamp(52px,11.2vw,76px);line-height:1;overflow-wrap:anywhere}
+.art-showcase,.package-stack{height:385px;min-height:385px}
+.art-showcase .large-art{width:65%}
+.art-showcase .side-art{width:39%}
+.package-stack .pack{height:60%}
+.studio-photo{height:420px}
+.process-row{grid-template-columns:40px 1fr;gap:15px}
+.process-row p{font-size:14px}
+.faq .section-title{font-size:clamp(53px,12vw,80px)}
+.faq-q{padding:18px 16px;font-size:15px;min-height:65px}
+.faq-answer p{font-size:15px;padding:0 17px 22px}
+.contact-card{gap:20px;padding-block:85px}
+.contact-card .display{font-size:clamp(60px,13vw,85px);line-height:1}
+.contact-form{grid-template-columns:1fr}
+.field{grid-column:1/-1}
+.form-buttons .btn{width:100%}
+.footer{padding-top:85px}
+.footer-cta{padding-bottom:70px}
+.footer-cta .display{font-size:clamp(60px,12.7vw,88px);line-height:1}
+.footer .footer-grid{grid-template-columns:1fr 1fr;padding-block:50px;gap:25px 15px}
+.footer .footer-grid > div:first-child{grid-column:1/-1}
+.footer-bottom{flex-direction:column;align-items:start;padding-bottom:55px}
+.lightbox-stage{height:auto;max-height:69dvh;max-width:calc(100vw - 112px);width:min(72vw,450px);aspect-ratio:var(--lightbox-ratio,4/5)}
+.lightbox-body{gap:5px;padding:8px}
+.lightbox-nav{width:34px;height:44px}
+.lightbox-stage .poster-center strong{font-size:clamp(55px,15vw,85px)}
+.grain{display:none}
+.eyebrow{font-size:11px;letter-spacing:.11em}
+.nav-inner{height:75px}
+.hero{padding-top:75px}
+.button-row{gap:8px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.hero-proof small{font-size:10px}
+.editorial-copy{min-width:0}
+.project-card:nth-child(even){margin-left:auto}
+.project-caption{flex-wrap:wrap;gap:6px}
+.card-view{opacity:1;transform:none;font-size:10px;bottom:12px;left:12px;padding:9px}
+.package-mark,.art-showcase .showcase-mark{font-size:11px}
+.service-row h3{font-size:clamp(22px,6vw,32px)}
+.footer-grid a{min-height:44px;display:flex;align-items:center}
+.lightbox-top{padding:12px}
+.lightbox-bottom{padding:12px 8px calc(15px + env(safe-area-inset-bottom))}
+.lightbox-bottom span{font-size:12px}
+.floating-contact{right:10px;bottom:max(8px,env(safe-area-inset-bottom));font-size:11px;padding:10px 12px}
+.hero-gallery .poster-top,.hero-gallery .poster-bottom,.hero-gallery .hero-hint,.hero-gallery .hero-count{display:none}
+.hero-gallery .poster-tag{font-size:11px}
+.hero-gallery .frame-1 .poster-center strong{font-size:clamp(28px,7vw,36px)}
+.hero-gallery .hero-frame.frame-1{--w:39%;top:12%;left:29%}
+.hero-gallery .hero-frame.frame-2{--w:26%;top:4%;right:1%}
+.hero-gallery .hero-frame.frame-3{--w:23%;top:4%;left:4%}
+.hero-gallery .hero-frame.frame-4{--w:26%;bottom:14%;right:3%}
+.hero-gallery .hero-frame.frame-5{--w:25%;bottom:8%;left:2%}
+.hero-gallery .hero-frame.frame-6{--w:28%;bottom:5%;left:34%}
+}
+@media (max-width:350px){
+.hero-title{font-size:clamp(55px,14.25vw,69px)}
+.hero-gallery{height:315px}
+.button-row .btn{width:100%}
+.footer-cta .display{font-size:55px}
+.hero-gallery .poster-top,.hero-gallery .poster-bottom{font-size:7px}
+}
+@media (pointer:coarse){
+.card-view{opacity:1;transform:none}
+.project-media:hover .poster,.project-media:hover .project-picture{transform:none}
+}
+@media (prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+*,*::before,*::after{animation-duration:.01ms;animation-iteration-count:1;scroll-behavior:auto;transition-duration:.01ms}
+.js [data-reveal]{opacity:1;transform:none}
+.hero-gallery .hero-frame{animation:none;translate:0}
+.ticker-track{animation:none;transform:none}
+.grain{display:none}
+.poster,.project-picture{transition:none}
+}
+/* Official brand assets: retain the complete original square canvas. */
+.logo{width:84px;height:84px;flex-shrink:0;gap:0}
+.logo .brand-image{display:block;width:100%;height:100%;object-fit:contain;object-position:center;transform:none;filter:none}
+.footer-grid a.logo{display:inline-flex;width:100px;height:100px}
+@media(max-width:820px){.logo{width:72px;height:72px}}
+/* Real art curation: frame proportions follow the original files. */
+.real-art-composition{position:relative;isolation:isolate;width:100%;max-width:640px;height:auto;min-height:0;aspect-ratio:5/6;margin:0 auto;overflow:visible}
+.real-art-composition:is(.hero-gallery,.hero-composition) :is(.hero-art,.hero-frame){position:absolute;height:auto;max-height:none;max-width:none;bottom:auto;right:auto;top:auto;left:auto;translate:0 0;background:transparent;box-shadow:0 18px 36px #0009;filter:none;outline:1px solid #ffffff12;transform:rotate(var(--rot,0deg))}
+.real-art-composition :is(.hero-art.hero-art-1,.hero-frame.frame-1){width:40%;left:29%;top:14%;--rot:-1.5deg;z-index:4}
+.real-art-composition :is(.hero-art.hero-art-2,.hero-frame.frame-2){width:24%;left:1%;top:3%;--rot:-3deg;z-index:2}
+.real-art-composition :is(.hero-art.hero-art-3,.hero-frame.frame-3){width:23%;left:74.5%;top:1%;--rot:3deg;z-index:2}
+.real-art-composition :is(.hero-art.hero-art-4,.hero-frame.frame-4){width:25%;left:73%;top:47%;--rot:2deg;z-index:3}
+.real-art-composition :is(.hero-art.hero-art-5,.hero-frame.frame-5){width:21%;left:2%;top:57%;--rot:-2deg;z-index:2}
+.real-art-composition :is(.hero-art.hero-art-6,.hero-frame.frame-6){width:20%;left:43%;top:70%;--rot:1deg;z-index:5}
+.real-art-composition .hero-art .artwork-real{height:100%;background:transparent}
+.real-art-composition .composition-caption{bottom:-27px}
+.real-art-composition :is(.hero-hint,.hero-count){bottom:-27px;font-size:8px}
+.real-art-composition .hero-hint{left:0}
+.real-art-composition .hero-count{right:0}
+.artwork-real{background:transparent}
+.artwork-real .artwork-image{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.project-open:hover .artwork-real{transform:none}
+.project-open:has(.artwork-real) .project-overlay{display:none}
+.project-open:has(.artwork-real):hover{outline:1px solid #ffffff50;outline-offset:3px}
+.dialog-art .artwork-real{width:min(100%,calc(65svh * var(--image-ratio)));max-height:none;height:auto}
+.original-art-link{display:flex;align-items:center;gap:12px;font-size:9px;letter-spacing:1px;margin:20px auto 0;max-width:580px;color:var(--muted)}
+.original-art-link:hover{color:var(--accent-light)}
+#portfolioGrid .project-media .project-picture{transform:none}
+#portfolioGrid .project-media:has(.project-picture) .card-view{display:none}
+#portfolioGrid .project-media:has(.project-picture):hover{outline:1px solid #ffffff50;outline-offset:3px}
+@media(max-width:700px){
+.real-art-composition{max-width:470px;margin:38px auto 50px;aspect-ratio:5/6}
+.real-art-composition :is(.hero-hint,.hero-count){font-size:6px;letter-spacing:.8px;bottom:-25px}
+.real-art-composition .composition-caption{font-size:6px;bottom:-25px}
+.dialog-art .artwork-real{width:100%;height:auto}
+}
+
+</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","name":"LS Design","description":"Design esportivo para atletas, clubes, equipes e campeonatos.","sameAs":["https://www.instagram.com/flyer.ls/"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como posso solicitar um orçamento?","acceptedAnswer":{"@type":"Answer","text":"Preencha o formulário de orçamento com as informações do projeto. Você pode copiar o briefing e entrar em contato pelo Instagram; o WhatsApp fica disponível quando estiver configurado."}},{"@type":"Question","name":"A LS Design trabalha com pacotes mensais?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os pacotes são personalizados conforme a demanda, o calendário e os objetivos de cada equipe ou organização."}},{"@type":"Question","name":"Quais tipos de artes esportivas posso contratar?","acceptedAnswer":{"@type":"Answer","text":"Matchday, resultados, anúncios de atletas, campeonatos, identidades esportivas e projetos especiais para redes sociais."}},{"@type":"Question","name":"Como funciona o prazo de entrega?","acceptedAnswer":{"@type":"Answer","text":"O prazo é combinado antes do início, considerando o tipo de peça, a demanda e as condições do projeto."}},{"@type":"Question","name":"Posso solicitar um projeto personalizado?","acceptedAnswer":{"@type":"Answer","text":"Sim. Explique a sua ideia no formulário e conversaremos sobre o melhor formato e escopo."}}]}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a><div class="grain" aria-hidden="true"></div>
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#inicio" class="logo" aria-label="LS Design — início"><img class="brand-image" src="assets/branding/LS_logo_branca_original.png" width="2048" height="2048" alt="LS Design" decoding="async"></a>
+      <nav class="nav-links" aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#portfolio">Portfólio</a><a href="#estudio">O Estúdio</a><a href="#servicos">Serviços</a><a href="#faq">FAQ</a></nav>
+      <div class="nav-actions"><a class="nav-cta" href="#contato">VAMOS CRIAR <span aria-hidden="true">↗</span></a><button id="menuToggle" class="menu-toggle" aria-label="Abrir menu" aria-controls="mobileMenu" aria-expanded="false"><span></span></button></div>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Navegação mobile"><a href="#inicio">Início <span>↗</span></a><a href="#portfolio">Portfólio <span>↗</span></a><a href="#estudio">O Estúdio <span>↗</span></a><a href="#servicos">Serviços <span>↗</span></a><a href="#faq">FAQ <span>↗</span></a><a class="mobile-cta" href="#contato">Vamos criar <span>↗</span></a></nav>
+  </header>
+
+  <noscript><p class="noscript-note">As principais informações e projetos estão disponíveis abaixo. Para filtros e imagens ampliadas, abra o site em um navegador com JavaScript.</p></noscript>
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="heroHeading">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <div class="eyebrow" data-reveal><span class="dash"></span> LS DESIGN <span class="small-divider">/</span> SPORTS CREATIVE STUDIO</div>
+          <h1 class="display hero-title" id="heroHeading" data-reveal style="--delay:100ms">O JOGO<br>COMEÇA<br>NO <span class="text-outline">VISUAL</span><span class="dot">.</span></h1>
+          <p class="hero-description" data-reveal style="--delay:180ms">Design esportivo para atletas, clubes e equipes. Criatividade, identidade e impacto visual em cada projeto.</p>
+          <div class="button-row" data-reveal style="--delay:260ms"><a class="btn" href="#portfolio">EXPLORAR PORTFÓLIO <span class="arrow-icon">↗</span></a><a class="btn ghost" href="#contato">SOLICITAR ORÇAMENTO <span class="arrow-icon">↗</span></a></div>
+          <div class="hero-proof" data-reveal style="--delay:340ms"><strong>750<span>+</span></strong><i class="vertical-rule"></i><small>PROJETOS ENTREGUES.<br>UMA TRAJETÓRIA AUTORAL.</small></div>
+        </div>
+        <div class="hero-gallery real-art-composition" aria-label="Composição visual da LS Design" id="heroGallery" data-reveal style="--delay:130ms"><div class="hero-frame frame-1" style="--entrance-delay:0ms;aspect-ratio:1440/2560"><picture class="project-picture"><img src="assets/projects/estamos-classificados.jpg" width="1440" height="2560" alt="Arte de classificação para as quartas de final da Talents Cup Sub-18 com quatro atletas." loading="eager" decoding="async" fetchpriority="high"></picture></div><div class="hero-frame frame-2" style="--entrance-delay:95ms;aspect-ratio:1170/2080"><picture class="project-picture"><img src="assets/projects/magnus-x-caieiras.jpg" width="1170" height="2080" alt="Arte de Magnus x Caieiras pelo Campeonato Paulista, com atleta, escudos e informações da partida." loading="lazy" decoding="async"></picture></div><div class="hero-frame frame-3" style="--entrance-delay:190ms;aspect-ratio:640/1136"><picture class="project-picture"><img src="assets/projects/dia-de-mj.jpg" width="640" height="1136" alt="Arte Dia de MJ com Murilo Jonas e informações da partida de futsal." loading="lazy" decoding="async"></picture></div><div class="hero-frame frame-4" style="--entrance-delay:285ms;aspect-ratio:1024/1280"><picture class="project-picture"><img src="assets/projects/dia-de-jogo-bonny-x-bases.jpeg" width="1024" height="1280" alt="Arte de Bonny x Bases com atleta, escudos, data e local do jogo." loading="lazy" decoding="async"></picture></div><div class="hero-frame frame-5" style="--entrance-delay:380ms;aspect-ratio:1170/2080"><picture class="project-picture"><img src="assets/projects/juvenas-vs-twister.jpg" width="1170" height="2080" alt="Arte de Juvenas vs Twister pelas oitavas de final dos Jogos Abertos, com atleta e informações da partida." loading="lazy" decoding="async"></picture></div><div class="hero-frame frame-6" style="--entrance-delay:475ms;aspect-ratio:1170/2080"><picture class="project-picture"><img src="assets/projects/contratado.jpg" width="1170" height="2080" alt="Arte de anúncio de contratação de atleta pelo Ibiporã Futsal." loading="lazy" decoding="async"></picture></div><span class="hero-hint">CURADORIA VISUAL / LS DESIGN</span><span class="hero-count">01 — 06</span></div>
+      </div>
+      <div class="hero-bottom container"><span>CRIAÇÃO INDEPENDENTE. IDENTIDADE ESPORTIVA.</span><a href="#portfolio" class="scroll-cue">EXPLORE O VISUAL <span>↓</span></a><span>LS DESIGN / BRASIL</span></div>
+    </section>
+
+    <div class="ticker" role="img" aria-label="Especialidades: matchday, resultados, campeonatos, identidade esportiva, design para atletas e pacotes mensais" tabindex="0"><div class="ticker-track" id="tickerTrack" aria-hidden="true"><div class="ticker-set"><span class="ticker-item"><i aria-hidden="true">✳</i>MATCHDAY</span><span class="ticker-item"><i aria-hidden="true">✳</i>RESULTADOS</span><span class="ticker-item"><i aria-hidden="true">✳</i>CAMPEONATOS</span><span class="ticker-item"><i aria-hidden="true">✳</i>IDENTIDADE ESPORTIVA</span><span class="ticker-item"><i aria-hidden="true">✳</i>DESIGN PARA ATLETAS</span><span class="ticker-item"><i aria-hidden="true">✳</i>PACOTES MENSAIS</span></div><div class="ticker-set"><span class="ticker-item"><i aria-hidden="true">✳</i>MATCHDAY</span><span class="ticker-item"><i aria-hidden="true">✳</i>RESULTADOS</span><span class="ticker-item"><i aria-hidden="true">✳</i>CAMPEONATOS</span><span class="ticker-item"><i aria-hidden="true">✳</i>IDENTIDADE ESPORTIVA</span><span class="ticker-item"><i aria-hidden="true">✳</i>DESIGN PARA ATLETAS</span><span class="ticker-item"><i aria-hidden="true">✳</i>PACOTES MENSAIS</span></div></div></div>
+
+    <section id="portfolio" class="content-section" aria-labelledby="portfolioHeading">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow" data-reveal><span class="dash"></span> <span id="portfolioCounter">PORTFÓLIO SELECIONADO / 001—008</span></div><h2 class="display section-title" id="portfolioHeading" data-reveal>NOSSO TRABALHO.<br>NOSSA IDENTIDADE.</h2></div><p class="small-copy" data-reveal>Projetos pensados para transformar ideias em experiências visuais marcantes. Cada detalhe conta uma história.</p></div>
+        <div class="filter-row" id="projectFilters" role="group" aria-label="Filtrar portfólio"><button type="button" class="filter active" data-category="Todos" aria-pressed="true">Todos</button><button type="button" class="filter" data-category="Campeonatos" aria-pressed="false">Campeonatos</button><button type="button" class="filter" data-category="Matchday" aria-pressed="false">Matchday</button><button type="button" class="filter" data-category="Atletas" aria-pressed="false">Atletas</button><button type="button" class="filter" data-category="Social / anúncios" aria-pressed="false">Social / anúncios</button></div>
+        <div class="portfolio-grid" id="portfolioGrid"><article class="project-card is-featured" data-reveal data-id="1" style="--project-ratio:1440/2560"><a class="project-media" href="assets/projects/estamos-classificados.jpg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Estamos classificados"><picture class="project-picture"><img src="assets/projects/estamos-classificados.jpg" width="1440" height="2560" alt="Arte de classificação para as quartas de final da Talents Cup Sub-18 com quatro atletas." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Estamos classificados</h3><span>Campeonatos</span></div></article><article class="project-card " data-reveal data-id="2" style="--project-ratio:1170/2080"><a class="project-media" href="assets/projects/magnus-x-caieiras.jpg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Magnus x Caieiras"><picture class="project-picture"><img src="assets/projects/magnus-x-caieiras.jpg" width="1170" height="2080" alt="Arte de Magnus x Caieiras pelo Campeonato Paulista, com atleta, escudos e informações da partida." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Magnus x Caieiras</h3><span>Matchday</span></div></article><article class="project-card " data-reveal data-id="3" style="--project-ratio:640/1136"><a class="project-media" href="assets/projects/dia-de-mj.jpg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Dia de MJ"><picture class="project-picture"><img src="assets/projects/dia-de-mj.jpg" width="640" height="1136" alt="Arte Dia de MJ com Murilo Jonas e informações da partida de futsal." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Dia de MJ</h3><span>Atletas</span></div></article><article class="project-card is-featured" data-reveal data-id="4" style="--project-ratio:1024/1280"><a class="project-media" href="assets/projects/dia-de-jogo-bonny-x-bases.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Dia de jogo (Bonny x Bases)"><picture class="project-picture"><img src="assets/projects/dia-de-jogo-bonny-x-bases.jpeg" width="1024" height="1280" alt="Arte de Bonny x Bases com atleta, escudos, data e local do jogo." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Dia de jogo (Bonny x Bases)</h3><span>Matchday</span></div></article><article class="project-card " data-reveal data-id="5" style="--project-ratio:1170/2080"><a class="project-media" href="assets/projects/juvenas-vs-twister.jpg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Juvenas vs Twister"><picture class="project-picture"><img src="assets/projects/juvenas-vs-twister.jpg" width="1170" height="2080" alt="Arte de Juvenas vs Twister pelas oitavas de final dos Jogos Abertos, com atleta e informações da partida." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Juvenas vs Twister</h3><span>Matchday</span></div></article><article class="project-card " data-reveal data-id="6" style="--project-ratio:1170/2080"><a class="project-media" href="assets/projects/contratado.jpg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Contratado"><picture class="project-picture"><img src="assets/projects/contratado.jpg" width="1170" height="2080" alt="Arte de anúncio de contratação de atleta pelo Ibiporã Futsal." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Contratado</h3><span>Social / anúncios</span></div></article><article class="project-card " data-reveal data-id="7" style="--project-ratio:1170/2080"><a class="project-media" href="assets/projects/confirmados-supercopa-juvenas.jpg" target="_blank" rel="noopener noreferrer" aria-label="Ampliar Confirmados Supercopa Juvenas"><picture class="project-picture"><img src="assets/projects/confirmados-supercopa-juvenas.jpg" width="1170" height="2080" alt="Arte de confirmação do Juvenas na Supercopa, com atletas diante de um estádio ao pôr do sol." loading="lazy" decoding="async"></picture></a><div class="project-caption"><h3>Confirmados Supercopa Juvenas</h3><span>Campeonatos</span></div></article></div>
+        <p id="projectAnnounce" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+        <div class="portfolio-end"><button class="btn ghost" id="showMore" type="button">VER MAIS PROJETOS <span class="arrow-icon">↗</span></button></div>
+        <p class="hint-note" id="demoNotice" hidden>Projetos apresentados são conceitos visuais temporários. As artes reais serão adicionadas ao portfólio.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="manifesto" style="border-top:1px solid var(--line)">
+      <div class="container editorial">
+        <div class="editorial-copy"><div class="eyebrow" data-reveal><span class="dash"></span> 01 / DESIGN ESPORTIVO</div><h2 class="display" data-reveal>CADA DETALHE<br>FAZ A DIFERENÇA.</h2><p class="small-copy" data-reveal>Criações desenvolvidas para valorizar atletas, fortalecer a comunicação dos clubes e transformar momentos esportivos em peças visuais marcantes.</p><a class="link-inline" href="#servicos" data-reveal>CONHECER OS SERVIÇOS <span>↗</span></a></div>
+        <div class="art-showcase" data-reveal><span class="showcase-mark">A ARTE ANTES DO APITO / LS DESIGN</span><div class="large-art" id="showcaseMain"><div class="poster poster--blue" role="img" aria-label="Cartaz conceitual de design esportivo"><div class="poster-top"><span>LS / SPORTS DESIGN</span><span>CONCEPT 01</span></div><div class="poster-center"><strong>MATCH<br>DAY</strong></div><div class="poster-tag">CONCEITO VISUAL</div><div class="poster-bottom"><span>CREATIVE DIRECTION / LS DESIGN</span><span>↗</span></div></div></div><div class="side-art" id="showcaseSide"><div class="poster poster--ice" role="img" aria-label="Cartaz conceitual de design esportivo"><div class="poster-top"><span>LS / SPORTS DESIGN</span><span>CONCEPT 02</span></div><div class="poster-center"><strong>PLAY<br>LOUD</strong></div><div class="poster-tag">CONCEITO VISUAL</div><div class="poster-bottom"><span>CREATIVE DIRECTION / LS DESIGN</span><span>↗</span></div></div></div></div>
+      </div>
+    </section>
+
+    <section class="content-section" style="padding-top:0" id="pacotes">
+      <div class="container editorial reverse">
+        <div class="package-stack" id="packageStack" data-reveal><span class="package-mark">UMA EQUIPE. IDENTIDADE CONSISTENTE.</span><div class="pack"><div class="poster poster--blue" role="img" aria-label="Cartaz conceitual de design esportivo"><div class="poster-top"><span>LS / SPORTS DESIGN</span><span>CONCEPT 01</span></div><div class="poster-center"><strong>MATCH<br>DAY</strong></div><div class="poster-tag">CONCEITO VISUAL</div><div class="poster-bottom"><span>CREATIVE DIRECTION / LS DESIGN</span><span>↗</span></div></div></div><div class="pack"><div class="poster poster--orange" role="img" aria-label="Cartaz conceitual de design esportivo"><div class="poster-top"><span>LS / SPORTS DESIGN</span><span>CONCEPT 03</span></div><div class="poster-center"><strong>FULL<br>TIME</strong></div><div class="poster-tag">CONCEITO VISUAL</div><div class="poster-bottom"><span>CREATIVE DIRECTION / LS DESIGN</span><span>↗</span></div></div></div><div class="pack"><div class="poster poster--steel" role="img" aria-label="Cartaz conceitual de design esportivo"><div class="poster-top"><span>LS / SPORTS DESIGN</span><span>CONCEPT 06</span></div><div class="poster-center"><strong>ONE<br>TEAM</strong></div><div class="poster-tag">CONCEITO VISUAL</div><div class="poster-bottom"><span>CREATIVE DIRECTION / LS DESIGN</span><span>↗</span></div></div></div></div>
+        <div class="editorial-copy"><div class="eyebrow" data-reveal><span class="dash"></span> 02 / PACOTES MENSAIS</div><h2 class="display" data-reveal>SUA EQUIPE<br>SEMPRE EM<br>DESTAQUE.</h2><p class="small-copy" data-reveal>Pacotes personalizados para clubes, atletas e organizações que precisam de consistência, personalidade e presença profissional nas redes sociais.</p><a class="link-inline" href="#contato" data-service-prefill="Pacotes mensais" data-reveal>SOLICITAR UM PACOTE <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="content-section studio" id="estudio">
+      <div class="container editorial">
+        <div><div class="studio-photo" data-reveal><span class="big-ls">LS</span><p>O CRIADOR POR TRÁS DA MARCA</p><span class="photo-corner">UM ESTÚDIO. UMA VISÃO. INFINITAS IDEIAS.</span></div></div>
+        <div class="editorial-copy"><div class="eyebrow" data-reveal><span class="dash"></span> 03 / O CRIADOR</div><h2 class="display" data-reveal>POR TRÁS DE<br>CADA PROJETO,<br>EXISTE PROPÓSITO.</h2><p class="small-copy" data-reveal>A LS Design nasceu da paixão pelo design esportivo e da dedicação colocada em cada criação. Mais de 750 projetos entregues fazem parte de uma trajetória construída com criatividade, identidade e cuidado com os detalhes.</p><p class="small-copy" data-reveal>Uma marca independente, com um criador real por trás de cada entrega.</p><div class="studio-aside" data-reveal><strong>750+</strong><span>PROJETOS<br>ENTREGUES</span></div></div>
+      </div>
+    </section>
+
+    <section class="content-section" id="servicos">
+      <div class="container"><div class="section-head"><div><div class="eyebrow" data-reveal><span class="dash"></span> ESPECIALIDADES / LS DESIGN</div><h2 class="display section-title" data-reveal>SEU ESPORTE.<br>NOSSA LINGUAGEM.</h2></div><p class="small-copy" data-reveal>Da identidade da equipe à emoção de cada partida. Design pensado para o seu contexto.</p></div><div class="services-list" id="servicesList"><a class="service-row" href="#contato" data-service="Artes de matchday" data-reveal><span class="index">01</span><h3>Artes de matchday</h3><span class="service-arrow" aria-hidden="true">↗</span></a><a class="service-row" href="#contato" data-service="Resultados e campeonatos" data-reveal><span class="index">02</span><h3>Resultados e campeonatos</h3><span class="service-arrow" aria-hidden="true">↗</span></a><a class="service-row" href="#contato" data-service="Identidade esportiva" data-reveal><span class="index">03</span><h3>Identidade esportiva</h3><span class="service-arrow" aria-hidden="true">↗</span></a><a class="service-row" href="#contato" data-service="Design para atletas" data-reveal><span class="index">04</span><h3>Design para atletas</h3><span class="service-arrow" aria-hidden="true">↗</span></a><a class="service-row" href="#contato" data-service="Pacotes mensais" data-reveal><span class="index">05</span><h3>Pacotes mensais</h3><span class="service-arrow" aria-hidden="true">↗</span></a><a class="service-row" href="#contato" data-service="Projetos personalizados" data-reveal><span class="index">06</span><h3>Projetos personalizados</h3><span class="service-arrow" aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section class="content-section" id="processo" style="border-top:1px solid var(--line)">
+      <div class="container"><div class="eyebrow" data-reveal><span class="dash"></span> 04 / PROCESSO CRIATIVO</div><h2 class="display section-title" data-reveal>DA IDEIA<br>AO IMPACTO.</h2><div class="process-list"><div class="process-row" data-reveal><span class="num">01 /</span><h3>SUA IDEIA</h3><p>Você conta o que precisa e qual é o objetivo do projeto.</p></div><div class="process-row" data-reveal><span class="num">02 /</span><h3>PLANEJAMENTO</h3><p>Alinhamos formato, detalhes, prazo e orçamento.</p></div><div class="process-row" data-reveal><span class="num">03 /</span><h3>CRIAÇÃO</h3><p>Transformo a proposta em uma peça visual personalizada.</p></div><div class="process-row" data-reveal><span class="num">04 /</span><h3>ENTREGA</h3><p>Finalizamos o projeto conforme as condições combinadas.</p></div></div></div>
+    </section>
+
+    <section class="content-section" id="faq"><div class="container"><div class="faq"><div class="eyebrow" data-reveal><span class="dash"></span> PERGUNTAS FREQUENTES</div><h2 class="display section-title" data-reveal>DÚVIDAS?<br>VAMOS RESOLVER.</h2><div class="faq-list" id="faqList"><details class="faq-item"><summary class="faq-q"><span>Como posso solicitar um orçamento?</span><span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer"><p>Preencha o formulário de orçamento com as informações do projeto. Você pode copiar o briefing e entrar em contato pelo Instagram; o WhatsApp fica disponível quando estiver configurado.</p></div></details><details class="faq-item"><summary class="faq-q"><span>A LS Design trabalha com pacotes mensais?</span><span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer"><p>Sim. Os pacotes são personalizados conforme a demanda, o calendário e os objetivos de cada equipe ou organização.</p></div></details><details class="faq-item"><summary class="faq-q"><span>Quais tipos de artes esportivas posso contratar?</span><span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer"><p>Matchday, resultados, anúncios de atletas, campeonatos, identidades esportivas e projetos especiais para redes sociais.</p></div></details><details class="faq-item"><summary class="faq-q"><span>Como funciona o prazo de entrega?</span><span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer"><p>O prazo é combinado antes do início, considerando o tipo de peça, a demanda e as condições do projeto.</p></div></details><details class="faq-item"><summary class="faq-q"><span>Posso solicitar um projeto personalizado?</span><span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer"><p>Sim. Explique a sua ideia no formulário e conversaremos sobre o melhor formato e escopo.</p></div></details></div></div></div></section>
+
+    <section class="contact-strip" id="contato"><div class="container contact-card"><div><div class="eyebrow" data-reveal><span class="dash"></span> SEU PRÓXIMO CAPÍTULO COMEÇA AQUI</div><h2 class="display" data-reveal>VAMOS CRIAR<br>ALGO GRANDE?</h2><p class="small-copy" data-reveal>Conte sua ideia e vamos encontrar a melhor direção visual para o seu projeto.</p><a class="link-inline" href="https://www.instagram.com/flyer.ls/" target="_blank" rel="noopener noreferrer" data-reveal>INSTAGRAM @FLYER.LS <span>↗</span></a></div>
+      <form id="briefingForm" class="contact-form" novalidate data-reveal>
+        <div class="field"><label for="clientName">Seu nome *</label><input id="clientName" aria-describedby="err-clientName" name="clientName" autocomplete="name" required maxlength="90" placeholder="Como podemos chamar você?"><small class="field-error" id="err-clientName"></small></div>
+        <div class="field"><label for="teamName">Clube / organização</label><input id="teamName" name="teamName" maxlength="100" placeholder="Nome do projeto ou equipe"></div>
+        <div class="field full"><label for="serviceType">Serviço desejado *</label><select id="serviceType" aria-describedby="err-serviceType" name="serviceType" required><option value="">Selecione uma opção</option><option value="Artes de matchday">Artes de matchday</option><option value="Resultados e campeonatos">Resultados e campeonatos</option><option value="Identidade esportiva">Identidade esportiva</option><option value="Design para atletas">Design para atletas</option><option value="Pacotes mensais">Pacotes mensais</option><option value="Projetos personalizados">Projetos personalizados</option></select><small class="field-error" id="err-serviceType"></small></div>
+        <div class="field"><label for="deadline">Prazo desejado</label><input id="deadline" name="deadline" placeholder="Ex.: próxima semana" maxlength="80"></div>
+        <div class="field"><label for="contactHandle">Seu contato</label><input id="contactHandle" name="contactHandle" placeholder="@instagram, e-mail ou telefone" maxlength="100"></div>
+        <div class="field full"><label for="projectDetails">Conte sobre a ideia *</label><textarea id="projectDetails" aria-describedby="err-projectDetails" name="projectDetails" required minlength="10" maxlength="2000" placeholder="Descreva o que você precisa, referências, formatos e quantidade de peças..."></textarea><small class="field-error" id="err-projectDetails"></small></div>
+        <div class="form-buttons"><button class="btn" type="submit" id="sendBriefing">PREPARAR ORÇAMENTO <span class="arrow-icon">↗</span></button><button class="btn ghost" id="copyBriefing" type="button">COPIAR MENSAGEM <span class="arrow-icon">⧉</span></button></div>
+        <div id="formStatus" class="form-status" role="status" aria-live="polite"></div><div id="postBriefing" class="post-briefing" hidden><a class="btn ghost" href="https://www.instagram.com/flyer.ls/" target="_blank" rel="noopener noreferrer">ABRIR INSTAGRAM ↗</a><button class="btn ghost" id="copyAgain" type="button" hidden>COPIAR NOVAMENTE ↗</button><textarea id="manualBriefing" class="manual-briefing" aria-label="Mensagem para copiar manualmente" readonly hidden></textarea></div><p class="form-note">Sem envio automático ou armazenamento de dados. Com WhatsApp configurado, abre-se a conversa; caso contrário, você pode copiar o briefing e chamar pelo <a href="https://www.instagram.com/flyer.ls/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+      </form></div></section>
+  </main>
+
+  <footer class="footer"><!-- Slot opcional para vídeo AUTORAL: adicionar src manualmente e retirar hidden apenas após aprovação. --><video class="footer-video" hidden muted loop playsinline preload="none" poster="assets/og-ls-design.png" aria-hidden="true"></video><div class="container"><div class="footer-cta"><div class="eyebrow" data-reveal><span class="dash"></span> LS DESIGN / O PRÓXIMO NÍVEL É AGORA</div><h2 class="display" data-reveal>PRONTO PARA<br>ELEVAR O <em>nível</em><br>DA SUA IMAGEM?</h2><div class="button-row" data-reveal><a class="btn" href="#contato">VAMOS CRIAR <span class="arrow-icon">↗</span></a><a class="btn ghost" href="#portfolio">EXPLORAR PORTFÓLIO <span class="arrow-icon">↗</span></a></div></div><div class="footer-grid"><div><a href="#inicio" class="logo" aria-label="LS Design — início"><img class="brand-image" src="assets/branding/LS_logo_branca_original.png" width="2048" height="2048" alt="LS Design" decoding="async"></a><p class="footer-desc">Estúdio criativo independente de design esportivo. Identidade, propósito e olhar autoral.</p></div><div><h3 class="footer-col-title">NAVEGAÇÃO</h3><a href="#inicio">Início</a><a href="#portfolio">Portfólio</a><a href="#estudio">O Estúdio</a><a href="#servicos">Serviços</a></div><div><h3 class="footer-col-title">ESPECIALIDADES</h3><a href="#servicos">Artes esportivas</a><a href="#servicos">Campeonatos</a><a href="#pacotes">Pacotes mensais</a><a href="#contato">Projetos personalizados</a></div><div><h3 class="footer-col-title">VAMOS CONVERSAR</h3><a href="https://www.instagram.com/flyer.ls/" target="_blank" rel="noopener noreferrer">Instagram @flyer.ls ↗</a><a id="footerWhatsapp" href="#contato" hidden>WhatsApp ↗</a><a href="#contato">Solicitar orçamento ↗</a></div></div><div class="footer-bottom"><span>© <span id="copyrightYear"></span> LS DESIGN. TODOS OS DIREITOS RESERVADOS.</span><span>FEITO COM PROPÓSITO E CRIATIVIDADE.</span><button class="backtop" type="button" id="backTop">VOLTAR AO TOPO ↑</button></div></div></footer>
+  <a id="floatingContact" class="floating-contact" href="https://www.instagram.com/flyer.ls/" target="_blank" rel="noopener noreferrer" aria-label="Contato com a LS Design pelo Instagram">Instagram ↗</a>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" aria-hidden="true"><div class="lightbox-top"><span id="lightboxTitle">PROJETO EM DESTAQUE</span><button class="icon-btn" type="button" id="closeLightbox" aria-label="Fechar visualização">×</button></div><div class="lightbox-body"><button class="icon-btn lightbox-nav" type="button" id="prevProject" aria-label="Projeto anterior">‹</button><div class="lightbox-stage" id="lightboxStage"></div><button class="icon-btn lightbox-nav" type="button" id="nextProject" aria-label="Próximo projeto">›</button></div><div class="lightbox-bottom"><div id="lightboxCaption"></div><button class="btn" id="projectReference" type="button">QUERO ALGO ASSIM ↗</button></div></div>
+
+  <script>
+'use strict';
+// LS Design — configuração centralizada. Conteúdo fictício é exclusivamente demonstrativo.
+const CONFIG={
+  "brand": "LS Design",
+  "instagram": "https://www.instagram.com/flyer.ls/",
+  "whatsapp": "",
+  "siteUrl": "",
+  "demoMode": false,
+  "heroProjectIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "slug": "estamos-classificados",
+      "title": "Estamos classificados",
+      "category": "Campeonatos",
+      "featured": true,
+      "order": 1,
+      "alt": "Arte de classificação para as quartas de final da Talents Cup Sub-18 com quatro atletas.",
+      "image": {
+        "src": "assets/projects/estamos-classificados.jpg",
+        "width": 1440,
+        "height": 2560
+      },
+      "width": 1440,
+      "height": 2560
+    },
+    {
+      "id": 2,
+      "slug": "magnus-x-caieiras",
+      "title": "Magnus x Caieiras",
+      "category": "Matchday",
+      "featured": false,
+      "order": 2,
+      "alt": "Arte de Magnus x Caieiras pelo Campeonato Paulista, com atleta, escudos e informações da partida.",
+      "image": {
+        "src": "assets/projects/magnus-x-caieiras.jpg",
+        "width": 1170,
+        "height": 2080
+      },
+      "width": 1170,
+      "height": 2080
+    },
+    {
+      "id": 3,
+      "slug": "dia-de-mj",
+      "title": "Dia de MJ",
+      "category": "Atletas",
+      "featured": false,
+      "order": 3,
+      "alt": "Arte Dia de MJ com Murilo Jonas e informações da partida de futsal.",
+      "image": {
+        "src": "assets/projects/dia-de-mj.jpg",
+        "width": 640,
+        "height": 1136
+      },
+      "width": 640,
+      "height": 1136
+    },
+    {
+      "id": 4,
+      "slug": "dia-de-jogo-bonny-x-bases",
+      "title": "Dia de jogo (Bonny x Bases)",
+      "category": "Matchday",
+      "featured": true,
+      "order": 4,
+      "alt": "Arte de Bonny x Bases com atleta, escudos, data e local do jogo.",
+      "image": {
+        "src": "assets/projects/dia-de-jogo-bonny-x-bases.jpeg",
+        "width": 1024,
+        "height": 1280
+      },
+      "width": 1024,
+      "height": 1280
+    },
+    {
+      "id": 5,
+      "slug": "juvenas-vs-twister",
+      "title": "Juvenas vs Twister",
+      "category": "Matchday",
+      "featured": false,
+      "order": 5,
+      "alt": "Arte de Juvenas vs Twister pelas oitavas de final dos Jogos Abertos, com atleta e informações da partida.",
+      "image": {
+        "src": "assets/projects/juvenas-vs-twister.jpg",
+        "width": 1170,
+        "height": 2080
+      },
+      "width": 1170,
+      "height": 2080
+    },
+    {
+      "id": 6,
+      "slug": "contratado",
+      "title": "Contratado",
+      "category": "Social / anúncios",
+      "featured": false,
+      "order": 6,
+      "alt": "Arte de anúncio de contratação de atleta pelo Ibiporã Futsal.",
+      "image": {
+        "src": "assets/projects/contratado.jpg",
+        "width": 1170,
+        "height": 2080
+      },
+      "width": 1170,
+      "height": 2080
+    },
+    {
+      "id": 7,
+      "slug": "confirmados-supercopa-juvenas",
+      "title": "Confirmados Supercopa Juvenas",
+      "category": "Campeonatos",
+      "featured": false,
+      "order": 7,
+      "alt": "Arte de confirmação do Juvenas na Supercopa, com atletas diante de um estádio ao pôr do sol.",
+      "image": {
+        "src": "assets/projects/confirmados-supercopa-juvenas.jpg",
+        "width": 1170,
+        "height": 2080
+      },
+      "width": 1170,
+      "height": 2080
+    }
+  ]
+};
+const editorialConcepts=[
+    {id:1,slug:'matchday-conceito-01',title:'Matchday — Conceito 01',category:'Matchday',featured:true,order:1,alt:'Cartaz demonstrativo de matchday com tipografia esportiva',word1:'MATCH',word2:'DAY',style:'blue',image:null,width:1080,height:1350},
+    {id:2,slug:'anuncio-conceito-02',title:'Anúncio — Conceito 02',category:'Atletas',featured:false,order:2,alt:'Cartaz demonstrativo de anúncio esportivo',word1:'PLAY',word2:'LOUD',style:'ice',image:null,width:1080,height:1350},
+    {id:3,slug:'resultado-conceito-03',title:'Resultado — Conceito 03',category:'Resultados',featured:true,order:3,alt:'Cartaz demonstrativo de resultado esportivo',word1:'FULL',word2:'TIME',style:'orange',image:null,width:1080,height:1350},
+    {id:4,slug:'campanha-conceito-04',title:'Campanha — Conceito 04',category:'Campeonatos',featured:false,order:4,alt:'Cartaz demonstrativo de campanha esportiva',word1:'NEXT',word2:'LEVEL',style:'night',image:null,width:1080,height:1920},
+    {id:5,slug:'matchday-conceito-05',title:'Matchday — Conceito 05',category:'Matchday',featured:false,order:5,alt:'Cartaz demonstrativo com tema esportivo',word1:'THE',word2:'GAME',style:'electric',image:null,width:1080,height:1080},
+    {id:6,slug:'identidade-conceito-06',title:'Identidade — Conceito 06',category:'Identidade',featured:false,order:6,alt:'Cartaz demonstrativo de identidade esportiva',word1:'ONE',word2:'TEAM',style:'steel',image:null,width:1600,height:900},
+    {id:7,slug:'atleta-conceito-07',title:'Atleta — Conceito 07',category:'Atletas',featured:true,order:7,alt:'Cartaz demonstrativo dedicado a atleta',word1:'RISE',word2:'UP',style:'blue',image:null,width:1080,height:1350},
+    {id:8,slug:'campeonato-conceito-08',title:'Campeonato — Conceito 08',category:'Campeonatos',featured:false,order:8,alt:'Cartaz demonstrativo de campeonato',word1:'GAME',word2:'ON',style:'orange',image:null,width:1080,height:1350}
+  ];
+// Para cadastrar uma arte: preencha image:{src:'assets/projects/flyer.jpg',webp:'assets/projects/flyer.webp',avif:'assets/projects/flyer.avif',width:1080,height:1350}; altere slug, alt e order. Nunca edite o layout para cadastrar um projeto.
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+function safeHistory(method,state,url){try{history[method](state,'',url);return true}catch(_){return false}}
+const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const hasImage=p=>!!(p.image&&(typeof p.image==='string'?p.image:p.image.src));
+const projects=CONFIG.projects.slice().sort((a,b)=>a.order-b.order);
+const demo=CONFIG.demoMode&&!projects.every(hasImage);
+let category='Todos',visibleLimit=6,visibleProjects=[],currentIndex=0,previousFocus=null,lightboxOpen=false,menuOpen=false;
+const getFiltered=()=>projects.filter(p=>category==='Todos'||p.category===category);
+const imageObject=p=>typeof p.image==='string'?{src:p.image,width:p.width||1080,height:p.height||1350}:p.image;
+function poster(p,context='grid'){
+  if(hasImage(p)){
+    const i=imageObject(p), w=i.width||p.width||1080,h=i.height||p.height||1350;
+    const sources=[i.avif?`<source type="image/avif" srcset="${escapeHtml(i.avif)}">`:'',i.webp?`<source type="image/webp" srcset="${escapeHtml(i.webp)}">`:''].join('');
+    const loading=context==='hero-first'?'eager':'lazy',priority=context==='hero-first'?' fetchpriority="high"':'';
+    return `<picture class="project-picture">${sources}<img src="${escapeHtml(i.src)}" width="${w}" height="${h}" alt="${escapeHtml(p.alt||p.title)}" loading="${loading}" decoding="async"${priority} sizes="(max-width: 600px) 85vw, (max-width: 950px) 60vw, 42vw"></picture>`;
+  }
+  return `<div class="poster poster--${escapeHtml(p.style||'blue')}" role="img" aria-label="${escapeHtml(p.alt||'Composição gráfica temporária')}"><div class="poster-top"><span>LS / SPORTS DESIGN</span><span>CONCEPT ${String(p.id).padStart(2,'0')}</span></div><div class="poster-center"><strong>${escapeHtml(p.word1||'LS')}<br>${escapeHtml(p.word2||'DESIGN')}</strong></div><div class="poster-tag">CONCEITO VISUAL</div><div class="poster-bottom"><span>CREATIVE DIRECTION / LS DESIGN</span><span aria-hidden="true">↗</span></div></div>`;
+}
+function renderArtwork(){
+  const selected=CONFIG.heroProjectIds.map(id=>projects.find(p=>p.id===id)).filter(Boolean);
+  $('#heroGallery').innerHTML=selected.map((p,i)=>`<div class="hero-frame frame-${i+1}" style="--entrance-delay:${i*95}ms;aspect-ratio:${p.width}/${p.height}">${poster(p,i===0?'hero-first':'hero')}</div>`).join('')+`<span class="hero-hint">CURADORIA VISUAL / LS DESIGN</span><span class="hero-count">01 — ${String(selected.length).padStart(2,'0')}</span>`;
+  $('#heroGallery').setAttribute('aria-label',demo?'Composição visual de conceitos esportivos':'Seleção de projetos da LS Design');
+  $('#showcaseMain').innerHTML=poster(editorialConcepts[0]); $('#showcaseSide').innerHTML=poster(editorialConcepts[1]);
+  $('#packageStack').innerHTML='<span class="package-mark">UMA EQUIPE. IDENTIDADE CONSISTENTE.</span>'+[editorialConcepts[0],editorialConcepts[2],editorialConcepts[5]].map(p=>`<div class="pack">${poster(p)}</div>`).join('');
+  const terms=['MATCHDAY','RESULTADOS','CAMPEONATOS','IDENTIDADE ESPORTIVA','DESIGN PARA ATLETAS','PACOTES MENSAIS'];
+  const set='<div class="ticker-set">'+terms.map(w=>`<span class="ticker-item"><i aria-hidden="true">✳</i>${w}</span>`).join('')+'</div>';
+  $('#tickerTrack').innerHTML=set+set;
+  const n=$('#demoNotice');if(n)n.hidden=!demo;
+  const meta=$('#portfolioCounter');if(meta)meta.textContent=`PORTFÓLIO SELECIONADO / 001—${String(projects.length).padStart(3,'0')}`;
+  $('#projectAnnounce').textContent='';
+}
+function card(p){
+ const aspect=(p.image&&p.image.width&&p.image.height?p.image.width/p.image.height:(p.width||1080)/(p.height||1350));
+ return `<article class="project-card ${p.featured?'is-featured':''}" data-reveal data-id="${p.id}" style="--project-ratio:${aspect}"><button class="project-media" type="button" data-project-id="${p.id}" aria-label="Ampliar ${escapeHtml(p.title)}">${poster(p)}<span class="card-view" aria-hidden="true">VER PROJETO ↗</span></button><div class="project-caption"><h3>${escapeHtml(p.title)}</h3><span>${escapeHtml(p.category)}${demo&&!hasImage(p)?' / CONCEITO':''}</span></div></article>`;
+}
+function syncFilterButtons(){
+ const root=$('#projectFilters'),all=['Todos',...new Set(projects.map(p=>p.category))];
+ root.innerHTML=all.map(c=>`<button type="button" class="filter${category===c?' active':''}" data-category="${escapeHtml(c)}" aria-pressed="${category===c}">${escapeHtml(c)}</button>`).join('');
+}
+function updatePortfolio({append=false,focus=false}={}){
+ const filtered=getFiltered(),displayed=filtered.slice(0,visibleLimit),grid=$('#portfolioGrid');visibleProjects=displayed;
+ const countBefore=grid.querySelectorAll('.project-card').length;
+ if(!append)grid.innerHTML=displayed.length?displayed.map(card).join(''):'<p class="empty-state">Nenhum projeto nesta categoria.</p>';
+ else {const current=grid.querySelectorAll('.project-card').length;grid.insertAdjacentHTML('beforeend',displayed.slice(current).map(card).join(''));}
+ const more=$('#showMore');more.hidden=filtered.length<=displayed.length;
+ $('#projectAnnounce').textContent=`Mostrando ${displayed.length} de ${filtered.length} projetos.`;
+ if(focus&&append){const newCard=grid.querySelectorAll('.project-card')[countBefore];if(newCard){const btn=newCard.querySelector('button');if(btn)btn.focus({preventScroll:true});newCard.scrollIntoView({block:'nearest',behavior:reduced?'auto':'smooth'});}}
+ initReveal();
+}
+function getCategoryFromUrl(){const wanted=new URLSearchParams(location.search).get('categoria');return ['Todos',...new Set(projects.map(p=>p.category))].includes(wanted)?wanted:'Todos';}
+function setCategory(c){category=c;visibleLimit=6;syncFilterButtons();updatePortfolio();
+ const url=new URL(location.href);if(category==='Todos')url.searchParams.delete('categoria');else url.searchParams.set('categoria',category);
+ safeHistory('replaceState',history.state,url.pathname+url.search+url.hash);
+ const btn=$$('#projectFilters button').find(b=>b.dataset.category===c);if(btn)btn.focus({preventScroll:true});
+}
+let scrollAtLock=0,lockCount=0;
+function lockPage(){if(++lockCount!==1)return;scrollAtLock=window.scrollY;document.body.style.position='fixed';document.body.style.top=`-${scrollAtLock}px`;document.body.style.left='0';document.body.style.right='0';document.body.style.width='100%';}
+function unlockPage(){if(lockCount===0)return;if(--lockCount)return;document.body.style.position='';document.body.style.top='';document.body.style.left='';document.body.style.right='';document.body.style.width='';document.documentElement.style.scrollBehavior='auto';window.scrollTo(0,scrollAtLock);requestAnimationFrame(()=>{document.documentElement.style.scrollBehavior='';});}
+function backgroundAccessibility(hidden){['.nav','main','.footer'].forEach(sel=>{const el=$(sel);if(!el)return;if('inert' in el)el.inert=hidden;if(hidden)el.setAttribute('aria-hidden','true');else el.removeAttribute('aria-hidden');});}
+function showLightbox(id,{push=true}={}){
+ const list=getFiltered();let idx=list.findIndex(p=>p.id===id);if(idx<0){category='Todos';syncFilterButtons();visibleLimit=projects.length;updatePortfolio();idx=projects.findIndex(p=>p.id===id);}if(idx<0)return;
+ visibleProjects=getFiltered();currentIndex=idx;if(!lightboxOpen){previousFocus=document.activeElement;lightboxOpen=true;lockPage();backgroundAccessibility(true);$('#lightbox').classList.add('is-open');$('#lightbox').setAttribute('aria-hidden','false');}
+ updateLightbox();$('#closeLightbox').focus({preventScroll:true});
+ if(push){const p=visibleProjects[currentIndex],url=new URL(location.href);url.hash='projeto-'+p.slug;safeHistory('pushState',{lsLightbox:true},url.pathname+url.search+url.hash);}
+}
+function preloadAdjacent(){if(!visibleProjects.length)return;[-1,1].forEach(d=>{const p=visibleProjects[(currentIndex+d+visibleProjects.length)%visibleProjects.length];if(hasImage(p)){const i=new Image();i.src=imageObject(p).src;}});}
+function updateLightbox(){const p=visibleProjects[currentIndex];if(!p)return;$('#lightboxTitle').textContent=p.title;
+ $('#lightboxStage').innerHTML=poster(p,'lightbox');$('#lightboxCaption').innerHTML=`<strong>${escapeHtml(p.title)}</strong><span>${escapeHtml(p.category)} · ${currentIndex+1}/${visibleProjects.length}</span>`;
+ $('#projectReference').textContent=`QUERO ALGO ASSIM ↗`;
+ const el=$('#lightboxStage');const img=imageObject(p);el.style.setProperty('--lightbox-ratio', img&&img.width&&img.height?`${img.width}/${img.height}`:`${p.width||3}/${p.height||4}`);preloadAdjacent();
+}
+function hideLightbox({back=true}={}){if(!lightboxOpen)return;lightboxOpen=false;$('#lightbox').classList.remove('is-open');$('#lightbox').setAttribute('aria-hidden','true');backgroundAccessibility(false);unlockPage();
+ if(previousFocus&&previousFocus.isConnected)previousFocus.focus({preventScroll:true});
+ if(back){if(history.state&&history.state.lsLightbox)history.back();else {const url=new URL(location.href);url.hash='portfolio';safeHistory('replaceState',null,url.pathname+url.search+url.hash);}}
+}
+function moveLightbox(d){if(!lightboxOpen||!visibleProjects.length)return;currentIndex=(currentIndex+d+visibleProjects.length)%visibleProjects.length;updateLightbox();const u=new URL(location.href);u.hash='projeto-'+visibleProjects[currentIndex].slug;safeHistory('replaceState',{lsLightbox:true},u.pathname+u.search+u.hash);}
+function handlePopState(){const hash=decodeURIComponent(location.hash.replace('#',''));if(hash.startsWith('projeto-')){const p=projects.find(x=>x.slug===hash.slice(8));if(p)showLightbox(p.id,{push:false});}else if(lightboxOpen)hideLightbox({back:false});
+ const next=getCategoryFromUrl();if(category!==next){category=next;visibleLimit=6;syncFilterButtons();updatePortfolio();}}
+function prefillService(name,project){const sel=$('#serviceType'),details=$('#projectDetails');const options=Array.from(sel.options);const target=options.find(o=>o.value===name);if(target)sel.value=target.value;
+ if(project){const ref=`Referência do portfólio: ${project.title} (${project.category}). Gostaria de algo inspirado no estilo deste projeto, com minha identidade. `;if(!details.value.includes(ref))details.value=ref+details.value;}
+ persistDraft();$('#contato').scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});setTimeout(()=>{(project?details:sel).focus({preventScroll:true});},reduced?0:520);
+}
+function serviceMap(name){if(name==='Artes de matchday')return 'Artes de matchday';if(name==='Resultados e campeonatos')return 'Resultados e campeonatos';return name;}
+function safeSessionSave(k,v){try{sessionStorage.setItem(k,v)}catch(_){}}
+function safeSessionGet(k){try{return sessionStorage.getItem(k)}catch(_){return null}}
+function persistDraft(){const f=$('#briefingForm');try{const d={};for(const [key,value] of new FormData(f).entries())d[key]=String(value);safeSessionSave('ls-briefing',JSON.stringify(d))}catch(_){}}
+function restoreDraft(){try{const d=JSON.parse(safeSessionGet('ls-briefing')||'{}');for(const [k,v] of Object.entries(d)){const el=$('#briefingForm').elements.namedItem(k);if(el&&typeof el.value==='string')el.value=v}}catch(_){}}
+function validateBrief(){const form=$('#briefingForm');let first=null;$$('#briefingForm [required]').forEach(el=>{const error=$('#err-'+el.id);const valid=el.validity.valid;el.setAttribute('aria-invalid',String(!valid));if(error)error.textContent=valid?'':el.validity.valueMissing?'Este campo é obrigatório.':el.validity.tooShort?`Escreva pelo menos ${el.minLength} caracteres.`:'Verifique o valor informado.';if(!valid&&!first)first=el});if(first){first.focus();$('#formStatus').textContent='Confira os campos destacados antes de continuar.';return null;}
+ const data=new FormData(form),g=k=>String(data.get(k)||'').trim();const utm=new URLSearchParams(location.search);const source=['utm_source','utm_medium','utm_campaign'].map(k=>utm.get(k)?`${k}: ${utm.get(k).slice(0,80)}`:'').filter(Boolean).join(' | ');
+ return `Olá! Gostaria de solicitar um orçamento na LS Design.\n\n*Nome:* ${g('clientName')}\n*Equipe/organização:* ${g('teamName')||'Não informado'}\n*Serviço:* ${g('serviceType')}\n*Prazo desejado:* ${g('deadline')||'A combinar'}\n*Meu contato:* ${g('contactHandle')||'Não informado'}\n\n*Descrição do projeto:*\n${g('projectDetails')}${source?`\n\n*Origem do contato:* ${source}`:''}`;
+}
+async function copyText(v){if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(v);return true;}const area=document.createElement('textarea');area.value=v;area.style.cssText='position:fixed;opacity:0;left:-2000px';document.body.appendChild(area);area.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}area.remove();return ok;}
+function afterPrepared(message,copied){$('#formStatus').textContent=message;$('#postBriefing').hidden=false;$('#copyAgain').hidden=!copied;if(!copied){$('#manualBriefing').hidden=false;$('#manualBriefing').value=lastBrief||'';}else $('#manualBriefing').hidden=true;}
+let lastBrief='';
+function initForm(){restoreDraft();const form=$('#briefingForm');form.addEventListener('input',e=>{persistDraft();if(e.target.id){e.target.removeAttribute('aria-invalid');const err=$('#err-'+e.target.id);if(err)err.textContent='';}});
+ form.addEventListener('submit',async e=>{e.preventDefault();const t=validateBrief();if(!t)return;lastBrief=t;persistDraft();const wa=CONFIG.whatsapp.replace(/\D/g,'');if(wa){afterPrepared('Briefing pronto! Abrindo seu aplicativo de mensagens.',false);$('#manualBriefing').hidden=true;location.href=`https://wa.me/${wa}?text=${encodeURIComponent(t)}`;}else{let ok=false;try{ok=await copyText(t)}catch(_){}afterPrepared(ok?'Briefing copiado! Abra o Instagram e cole a mensagem na conversa.':'Não foi possível copiar automaticamente. Selecione e copie a mensagem abaixo.',ok);}});
+ $('#copyBriefing').addEventListener('click',async()=>{const t=validateBrief();if(!t)return;lastBrief=t;let ok=false;try{ok=await copyText(t)}catch(_){}afterPrepared(ok?'Mensagem copiada! Envie pelo Instagram.':'Cópia automática indisponível. Use a mensagem abaixo.',ok);});
+ $('#copyAgain').addEventListener('click',async()=>{if(!lastBrief)return;try{await copyText(lastBrief);$('#formStatus').textContent='Mensagem copiada novamente.'}catch(_){$('#manualBriefing').hidden=false;$('#manualBriefing').value=lastBrief;}});
+}
+let revealObserver;
+function initReveal(){if(reduced||!('IntersectionObserver'in window))return;if(!revealObserver){revealObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('revealed');revealObserver.unobserve(e.target);}})},{threshold:.04,rootMargin:'0px 0px -20px 0px'});}$$('[data-reveal]:not(.revealed)').forEach(el=>revealObserver.observe(el));}
+function initTicker(){if(reduced)return;const el=$('.ticker');if(!el)return;if('IntersectionObserver' in window){new IntersectionObserver(es=>{el.classList.toggle('is-paused',!es[0].isIntersecting)},{threshold:0}).observe(el);}document.addEventListener('visibilitychange',()=>el.classList.toggle('is-hidden',document.hidden));}
+function setMenu(open,{restore=false}={}){if(menuOpen===open)return;menuOpen=open;const menu=$('#mobileMenu'),btn=$('#menuToggle');menu.classList.toggle('open',open);btn.setAttribute('aria-expanded',String(open));btn.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');menu.setAttribute('aria-hidden',String(!open));if(open){lockPage();const first=menu.querySelector('a');if(first)first.focus({preventScroll:true});}else {unlockPage();if(restore)btn.focus({preventScroll:true});}}
+function initNav(){const nav=$('#nav'),btn=$('#menuToggle');let ticking=false;const update=()=>{if(ticking)return;ticking=true;requestAnimationFrame(()=>{nav.classList.toggle('scrolled',scrollY>20);ticking=false;});};addEventListener('scroll',update,{passive:true});update();btn.addEventListener('click',()=>setMenu(!menuOpen));
+ $$('#mobileMenu a').forEach(a=>a.addEventListener('click',e=>{const href=a.getAttribute('href');setMenu(false);if(href&&href[0]==='#'){e.preventDefault();requestAnimationFrame(()=>{$(href)?.scrollIntoView({behavior:reduced?'auto':'smooth'});safeHistory('replaceState',history.state,href);});}}));document.addEventListener('pointerdown',e=>{if(menuOpen&&!nav.contains(e.target))setMenu(false)});addEventListener('resize',()=>{if(innerWidth>820)setMenu(false)},{passive:true});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(lightboxOpen){hideLightbox();return;}if(menuOpen){setMenu(false,{restore:true});return;}}if(e.key==='Tab'&&menuOpen){const links=$$('#mobileMenu a'),items=[btn,...links],idx=items.indexOf(document.activeElement);if(!e.shiftKey&&idx===items.length-1){e.preventDefault();btn.focus();}else if(e.shiftKey&&idx===0){e.preventDefault();items[items.length-1].focus();}}});
+ $('#backTop').addEventListener('click',()=>scrollTo({top:0,behavior:reduced?'auto':'smooth'}));
+ if('IntersectionObserver' in window){const sections=$$('main section[id]');const spy=new IntersectionObserver(es=>{const visible=es.filter(x=>x.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio);if(!visible.length)return;const id=visible[0].target.id;$$('.nav-links a, #mobileMenu a').forEach(a=>{const active=a.getAttribute('href')==='#'+id;if(active)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});},{rootMargin:'-25% 0px -55% 0px',threshold:[0,.1,.3]});sections.forEach(s=>spy.observe(s));}
+}
+function initLightbox(){const l=$('#lightbox');$('#closeLightbox').addEventListener('click',()=>hideLightbox());$('#prevProject').addEventListener('click',()=>moveLightbox(-1));$('#nextProject').addEventListener('click',()=>moveLightbox(1));l.addEventListener('click',e=>{if(e.target===l)hideLightbox();});
+ $('#projectReference').addEventListener('click',()=>{const p=visibleProjects[currentIndex];hideLightbox();prefillService(p.category==='Matchday'?'Artes de matchday':p.category==='Campeonatos'||p.category==='Resultados'?'Resultados e campeonatos':p.category==='Atletas'?'Design para atletas':'Projetos personalizados',p);});
+ document.addEventListener('keydown',e=>{if(!lightboxOpen)return;if(e.key==='ArrowLeft')moveLightbox(-1);if(e.key==='ArrowRight')moveLightbox(1);if(e.key==='Tab'){const items=$$('#lightbox button').filter(x=>!x.hidden);let i=items.indexOf(document.activeElement);if(e.shiftKey&&i===0){e.preventDefault();items[items.length-1].focus();}else if(!e.shiftKey&&i===items.length-1){e.preventDefault();items[0].focus();}}});
+ let x=0,y=0;l.addEventListener('touchstart',e=>{if(e.touches.length===1){x=e.touches[0].clientX;y=e.touches[0].clientY;}},{passive:true});l.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-x,dy=e.changedTouches[0].clientY-y;if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.5)moveLightbox(dx<0?1:-1);},{passive:true});
+ addEventListener('popstate',handlePopState);
+}
+function initCountAndContact(){
+ const floating=$('#floatingContact');let scheduled=false;
+ addEventListener('scroll',()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{floating.classList.toggle('is-visible',scrollY>Math.max(450,innerHeight*.75));scheduled=false})},{passive:true});
+ floating.classList.toggle('is-visible',scrollY>Math.max(450,innerHeight*.75));
+ if(reduced||!('IntersectionObserver' in window))return;
+ const numberNodes=$$('.hero-proof strong,.studio-aside strong');
+ const counterObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+  if(!entry.isIntersecting)return;counterObserver.unobserve(entry.target);const node=entry.target.firstChild;if(!node||node.nodeType!==Node.TEXT_NODE)return;
+  const start=performance.now(),duration=1200;const update=t=>{const progress=Math.min(1,(t-start)/duration);const eased=1-Math.pow(1-progress,3);node.textContent=String(Math.round(750*eased));if(progress<1)requestAnimationFrame(update);else node.textContent='750'};requestAnimationFrame(update);
+ }),{threshold:.25});numberNodes.forEach(n=>counterObserver.observe(n));
+}
+function initHeroParallax(){
+ if(reduced||!matchMedia('(pointer:fine)').matches)return;
+ const gallery=$('#heroGallery');let visible=true,raf=false,tx=0,ty=0;
+ if('IntersectionObserver' in window)new IntersectionObserver(es=>{visible=es[0].isIntersecting;if(!visible){gallery.style.setProperty('--parallax-x','0px');gallery.style.setProperty('--parallax-y','0px')}},{threshold:0}).observe(gallery);
+ gallery.addEventListener('pointermove',e=>{if(!visible||raf)return;const box=gallery.getBoundingClientRect();tx=((e.clientX-box.left)/box.width-.5)*10;ty=((e.clientY-box.top)/box.height-.5)*7;raf=true;requestAnimationFrame(()=>{gallery.style.setProperty('--parallax-x',tx.toFixed(1)+'px');gallery.style.setProperty('--parallax-y',ty.toFixed(1)+'px');raf=false})},{passive:true});
+ gallery.addEventListener('pointerleave',()=>{gallery.style.setProperty('--parallax-x','0px');gallery.style.setProperty('--parallax-y','0px')});
+}
+function initialize(){renderArtwork();category=getCategoryFromUrl();syncFilterButtons();updatePortfolio();initNav();initTicker();initForm();initLightbox();initReveal();initCountAndContact();initHeroParallax();
+ $('#copyrightYear').textContent=new Date().getFullYear();
+ $('#projectFilters').addEventListener('click',e=>{const btn=e.target.closest('button[data-category]');if(btn)setCategory(btn.dataset.category);});
+ $('#portfolioGrid').addEventListener('click',e=>{const btn=e.target.closest('[data-project-id]');if(btn)showLightbox(Number(btn.dataset.projectId));});
+ $('#showMore').addEventListener('click',()=>{visibleLimit+=6;updatePortfolio({append:true,focus:true});});
+ $$('.service-row[data-service], [data-service-prefill]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();prefillService(a.dataset.service||a.dataset.servicePrefill);}));
+ const wa=CONFIG.whatsapp.replace(/\D/g,'');if(wa){const fl=$('#floatingContact');fl.href=`https://wa.me/${wa}`;fl.textContent='WhatsApp ↗';const foot=$('#footerWhatsapp');foot.href=`https://wa.me/${wa}`;foot.hidden=false;}else{$('#floatingContact').href=CONFIG.instagram;$('#floatingContact').textContent='Instagram ↗';}
+ const projectSlug=decodeURIComponent(location.hash.replace(/^#projeto-/,''));if(location.hash.startsWith('#projeto-')){const project=projects.find(p=>p.slug===projectSlug);if(project)showLightbox(project.id,{push:false});}
+}
+initialize();
+
+  </script>
+</body>
+</html>

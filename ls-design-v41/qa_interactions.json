@@ -1,0 +1,43 @@
+{
+  "hero390": {
+    "gallery_y": 536,
+    "main_visible_fraction": 1,
+    "all_pieces_inside_gallery": true
+  },
+  "portfolio_initial": 6,
+  "portfolio_all": 8,
+  "more_hidden_after_eight": true,
+  "matchday_filtered": 2,
+  "lightbox_open": true,
+  "main_inert_when_open": true,
+  "lightbox_keyboard_next": "Matchday — Conceito 05Matchday · 2/2",
+  "lightbox_closed_escape": true,
+  "mobile_menu_open": true,
+  "mobile_menu_escape_close": true,
+  "scroll_restore": {
+    "before": 1250,
+    "just_after": 1250,
+    "after_350ms": 1250
+  },
+  "faq": {
+    "before": false,
+    "after": true
+  },
+  "form_empty_error_count": 3,
+  "form_status": "Briefing copiado! Abra o Instagram e cole a mensagem na conversa.",
+  "post_form_visible": true,
+  "js_errors": [],
+  "no_js": {
+    "hero_artworks": 6,
+    "static_projects": 6,
+    "faq_items": 5
+  },
+  "desktop_hero": {
+    "gallery_w": 531.71875,
+    "gallery_h": 590,
+    "frames": 6,
+    "max_overlap_fraction": 0,
+    "max_overlap_pair": [],
+    "inside": true
+  }
+}
